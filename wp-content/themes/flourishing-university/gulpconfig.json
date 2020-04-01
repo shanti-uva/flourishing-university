@@ -1,7 +1,11 @@
 {
 	"browserSyncOptions": {
-		"proxy": "localhost:8080/",
-		"notify": false
+		"proxy": "http://flourishing-university.lndo.site",
+		"host": "flourishing-university.lndo.site",
+		"port": 3003,
+		"notify": false,
+		"open": false,
+		"injectChanges": true
 	},
 	"browserSyncWatchFiles": ["./css/*.min.css", "./js/*.min.js", "./**/*.php"],
 	"paths": {

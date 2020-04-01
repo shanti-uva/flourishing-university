@@ -1,4 +1,19 @@
 name: flourishing-university
 recipe: wordpress
+proxy:
+  theme:
+    - localhost:3000
 config:
   webroot: .
+services:
+  theme:
+    type: node:12
+    build:
+      - cd wp-content/themes/flourishing-university && npm install
+    overrides:
+      ports: [3003:3003]
+tooling:
+  compile:
+    service: theme
+    description: Runs gulp watch-bs from the theme directory using BrowserSync
+    cmd: cd wp-content/themes/flourishing-university && npm run gulp-bs
