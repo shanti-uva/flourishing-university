@@ -1,0 +1,4 @@
+name: flourishing-university
+recipe: wordpress
+config:
+  webroot: .
