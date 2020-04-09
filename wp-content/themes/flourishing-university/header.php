@@ -37,7 +37,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</h2>
 
 		<?php if ( 'container' === $container ) : ?>
-			<div class="container">
+			<div class="container-fluid px-0">
 		<?php endif; ?>
 
 					<!-- Your site title as branding in the menu -->
@@ -67,13 +67,24 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'theme_location'  => 'primary',
 						'container_class' => 'collapse navbar-collapse',
 						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
+						'menu_class'      => 'navbar-nav',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>
+
+				<!-- Search Form -->
+				<div class="input-group flex-nowrap">
+					<input type="search" class="form-control py-2 border-right-0" placeholder="Search..." aria-label="Search" aria-describedby="addon-wrapping">
+					<span class="input-group-append">
+						<button class="btn btn-outline-primary border-left-0 border" type="button">
+							<i class="fa fa-search"></i>
+						</button>
+          </span>
+				</div>
+
 			<?php if ( 'container' === $container ) : ?>
 			</div><!-- .container -->
 			<?php endif; ?>
