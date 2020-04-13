@@ -18,6 +18,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="stylesheet" href="https://use.typekit.net/hot8duf.css">
 	<?php wp_head(); ?>
 </head>
 
@@ -37,22 +38,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</h2>
 
 		<?php if ( 'container' === $container ) : ?>
-			<div class="container-fluid px-0">
+			<div class="container-xxl px-0">
 		<?php endif; ?>
 
 					<!-- Your site title as branding in the menu -->
 					<?php if ( ! has_custom_logo() ) { ?>
-
-						<?php if ( is_front_page() && is_home() ) : ?>
-
-							<h1 class="navbar-brand mb-0"><a rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a></h1>
-
-						<?php else : ?>
-
-							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><?php bloginfo( 'name' ); ?></a>
-
-						<?php endif; ?>
-
+						<div class='logo'>
+							<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url">
+								<span class="logo-img"><?php echo load_inline_svg('flourishing-logo.svg'); ?></span>
+								<span class="logo-text"><?php bloginfo( 'name' ); ?></span>
+							</a>
+						</div>
 					<?php } else {
 						the_custom_logo();
 					} ?><!-- end custom logo -->
@@ -67,7 +63,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'theme_location'  => 'primary',
 						'container_class' => 'collapse navbar-collapse',
 						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav',
+						'menu_class'      => 'navbar-nav ml-auto',
 						'fallback_cb'     => '',
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
@@ -76,13 +72,26 @@ $container = get_theme_mod( 'understrap_container_type' );
 				); ?>
 
 				<!-- Search Form -->
-				<div class="input-group flex-nowrap">
+				<div class="input-group flex-nowrap header-search">
 					<input type="search" class="form-control py-2 border-right-0" placeholder="Search..." aria-label="Search" aria-describedby="addon-wrapping">
 					<span class="input-group-append">
-						<button class="btn btn-outline-primary border-left-0 border" type="button">
-							<i class="fa fa-search"></i>
+						<button class="btn border-left-0 border search-btn" type="button">
+							<i class="fa fa-search text-black-50"></i>
 						</button>
           </span>
+				</div>
+
+				<!-- Other links -->
+				<div class='top-links'>
+					<a href='#'>
+						<?php echo load_inline_svg('adv-search.svg'); ?>
+					</a>
+					<a href='#'>
+						<?php echo load_inline_svg('user.svg'); ?>
+					</a>
+					<a href='#'>
+						<?php echo load_inline_svg('hamburger.svg'); ?>
+					</a>
 				</div>
 
 			<?php if ( 'container' === $container ) : ?>

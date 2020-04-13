@@ -62,7 +62,7 @@ gulp.task('watch', function () {
 	);
 
 	//Inside the watch task.
-	gulp.watch(`${paths.imgsrc}/**`, gulp.series('imagemin-watch'));
+	gulp.watch(`${paths.imgsrc}/*`, gulp.series('imagemin-watch'));
 });
 
 // Run:
@@ -70,8 +70,18 @@ gulp.task('watch', function () {
 // Running image optimizing task
 gulp.task('imagemin', function () {
 	gulp
-		.src(`${paths.imgsrc}/**`)
-		.pipe(imagemin())
+		.src(`${paths.imgsrc}/*`)
+		.pipe(imagemin([
+			imagemin.gifsicle({interlaced: true}),
+			imagemin.mozjpeg({quality: 75, progressive: true}),
+			imagemin.optipng({optimizationLevel: 5}),
+			imagemin.svgo({
+				plugins: [
+					{removeViewBox: true},
+					{cleanupIDs: false}
+				]
+			})
+		]))
 		.pipe(gulp.dest(paths.img));
 });
 

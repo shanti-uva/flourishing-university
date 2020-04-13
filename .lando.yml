@@ -17,3 +17,11 @@ tooling:
     service: theme
     description: Runs gulp watch-bs from the theme directory using BrowserSync
     cmd: cd wp-content/themes/flourishing-university && npm run gulp-bs
+  npm:
+    service: theme
+  node:
+    service: theme
+  gulp:
+    service: theme
+  yarn:
+    service: theme

@@ -1,5 +1,166 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
+// Header Styles
 #main-nav {
 	height: 42px;
+}
+
+.navbar-nav {
+	font: 600 13px/16px lato, sans-serif;
+	letter-spacing: 0.65px;
+	margin-right: 2rem;
+}
+
+.navbar-brand {
+	display: flex;
+	align-items: center;
+	padding-top: inherit;
+	padding-bottom: 0.1rem;
+	margin-right: inherit;
+	.logo-img {
+		display: inline-flex;
+	}
+}
+
+.header-search {
+	width: 180px;
+	max-height: 25px;
+	& > * {
+		max-height: 25px;
+	}
+	input {
+		font-size: 0.8rem;
+		font-style: italic;
+	}
+	.search-btn {
+		background: #fff;
+    padding-top: 0.15rem;
+    font-size: 0.8rem;
+	}
+}
+
+.logo-text {
+	font: 500 17px/18px lato, sans-serif;
+	letter-spacing: 0.85px;
+	margin-left: 0.5rem;
+}
+
+.top-links {
+	& > a {
+		margin-left: 0.6rem;
+		display: inline-block;
+		vertical-align: middle;
+		&:first-child {
+			margin-left: 0.8rem;
+		}
+	}
+}
+
+// Homepage styles
+.front-hero {
+	background: $grey-600;
+	.greyborder {
+		max-width: 1520px;
+    margin: 0 auto;
+    background: $grey-100;
+    border-radius: 8px;
+		padding: 10px;
+		.orangeborder {
+			background: $orange-200;
+    	border-radius: 8px;
+			padding: 4px;
+			.content {
+				background: #fff;
+    		border-radius: 8px;
+			}
+		}
+	}
+}
+
+.hero-item {
+	.hero-title {
+		font: 600 19px/33px "garamond-premier-pro",serif;
+		color: $blue-400;
+		border-bottom: 2px solid $orange-200;
+	}
+	@include media-breakpoint-up(xxl) {
+		.hero-title {
+			font-size: 23px;
+		}
+	}
+	.item-content {
+		display: flex;
+		svg {
+			flex: 1 0 85px;
+		}
+		.item-text {
+			@include normal-text;
+
+		}
+	}
+}
+
+.strips {
+	width: 100%;
+	height: 16px;
+	.green-strips {
+		background: $green;
+		height: 8px;
+		margin: 2px 0;
+	}
+	.orange-strips {
+		background: $orange-200;
+		height: 4px;
+	}
+}
+
+.front-content {
+	background: $grey-200;
+}
+
+.section-region {
+	.region-title {
+		border-bottom: 3px solid $orange-200;
+		.region-text {
+			font: 500 23px/29px lato, sans-serif;
+			letter-spacing: 0.015rem;
+			color: $blue-600;
+			vertical-align: middle;
+		}
+		.badge-blue {
+			background-color: $blue-300;
+			color: #fff;
+			font: italic 600 12px/12px lato, sans-serif;
+		}
+	}
+	.front-blade {
+		overflow: auto;
+		position: relative;
+		border-bottom: 2px solid $green;
+		box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0px 0px 8px 8px;
+		& > img {
+			border-bottom: 2px solid $green;
+			padding-bottom: 0.1rem;
+		}
+		.blade-title {
+			font: 500 20px/24px lato, sans-serif;
+			letter-spacing: 0.010rem;
+			border-bottom: 2px solid $orange-200;
+			color: $blue-400;
+			.green-arrow {
+				vertical-align: text-top;
+			}
+		}
+		.blade-text {
+			@include normal-text;
+		}
+		.bottom-line {
+			height: 2px;
+			background: $green;
+			position: absolute;
+			bottom: 2px;
+			width: 100%;
+		}
+	}
 }

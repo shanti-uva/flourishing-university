@@ -19,4 +19,29 @@ $container-max-widths: (
 	xxl: 1520px
 );
 
-$primary: #356595; // Thats a sample how you could change a BootStrap variable.
+// Colors
+$primary: #356595;
+
+$green: #749D62;
+
+$grey-100: #FFFFFFAC;
+$grey-200: #EEEEEE;
+$grey-600: #BFC7C9;
+$grey-800: #333333;
+
+$blue-300: #1C74C1;
+$blue-400: #144A80;
+$blue-600: #2E4760;
+
+$orange-200: #F4BF5C;
+
+$border-radius: 1rem;
+
+$navbar-dark-color: #fff;
+
+// Mixins
+@mixin normal-text {
+	font: 500 16px/20px lato, sans-serif;
+	color: $grey-800;
+	letter-spacing: 0.015rem;
+}
