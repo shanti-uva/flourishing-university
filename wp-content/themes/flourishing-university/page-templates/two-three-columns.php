@@ -16,7 +16,7 @@ get_header();
 <div class='two-three-column-wrapper'>
 	<div class='container-xxl'>
 		<div class='row'>
-			<div class='col-sm-12 col-lg-8 content'>
+			<div class='col-sm-12 col-lg-8 content pb-5'>
 				<div class='row'>
 					<div class='col-sm-12'>
 						<div class='title-bar my-2'>

@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 ?>
 
-<div class='page-wrapper' id='full-width-page-wrapper'>
+<div class='page-wrapper mb-5' id='full-width-page-wrapper'>
 	<section class="front-hero py-3">
 		<div class='greyborder'>
 			<div class='orangeborder'>
