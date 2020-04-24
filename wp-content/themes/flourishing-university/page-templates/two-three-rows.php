@@ -307,6 +307,74 @@ get_header();
 						</div>
 					</div><!-- .col-sm-12 -->
 				</section><!-- section.row -->
+				<section class='row'>
+					<div class='col-sm-12'>
+						<div class='section-title-bar my-2'>
+							<div class='section-title-bar__left'>
+								<?php echo load_inline_svg('icon-community-networks-orange.svg'); ?>
+								<span class='ml-2'>Community Networks</span>
+							</div>
+							<div class='section-title-bar__right'>
+							</div>
+						</div>
+						<div class='section-body orange'>
+							<div class='section-body__title p-2'>
+								Building communities small and large to facilitate transformative innovations in knowledge pertinent to student flourishing and contemplation.
+							</div>
+							<div class='section-body__content orange'>
+								<div class='row'>
+									<div class='col-sm-12 col-lg-6'>
+										<div class='row-card px-2 py-3'>
+											<div class='row-card__title orange pb-1'>
+												<span class='mr-2'>The Flourishing Academic Network</span>
+												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
+											</div>
+											<div class='row-card__content py-2'>
+												<div class='row-card__content-text'>
+													Networking major universities to collaborate on building resources and momentum to re-envision and refashion higher education to focus centrally on the flourishing of students as whole individuals embedded in diverse communities.
+												</div>
+											</div>
+											<div class='row-card__image'>
+												<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'flourishing-academic-network@2x.jpg'; ?>' alt='The flourishing academic network'>
+											</div>
+										</div>
+									</div>
+									<div class='col-sm-12 col-lg-6 flex-column'>
+										<div class='row-card px-2 py-3'>
+											<div class='row-card__title orange pb-1'>
+												<span class='mr-2'>Wellbeing and Social Innovation Educational Network</span>
+												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
+											</div>
+											<div class='row-card__content py-2'>
+												<div class='row-card__content-text'>
+													An evolving network of institutions of higher education around the world focused on how to integrate frameworks and practices of wellbeing into programs focused on social innovation.
+												</div>
+											</div>
+											<div class='row-card__image'>
+												<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'wellbeing-social-innovation@2x.jpg'; ?>' alt='Wellbeing and Social Innovation Educational Network'>
+											</div>
+										</div>
+										<div class='row-card px-2 py-3'>
+											<div class='row-card__title orange pb-1'>
+												<span class='mr-2'>The Great Perfection Initiative</span>
+												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
+											</div>
+											<div class='row-card__content py-2'>
+												<div class='row-card__content-text'>
+													A community of scholars, teachers, and practitioners collaboratively building new resources to support understanding the legacy of the Great Perfection (Dzokchen) contemplative tradition, as well as towards exploring a creative renewal in the future.
+												</div>
+											</div>
+											<div class='row-card__image'>
+												<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'great-perfection-initiative@2x.jpg'; ?>' alt='The Great Perfection Initiative'>
+											</div>
+										</div>
+									</div>
+								</div><!-- .row.equal -->
+							</div><!-- .section-body__content -->
+							<span class='white-line'></span>
+						</div>
+					</div><!-- .col-sm-12 -->
+				</section><!-- section.row -->
 			</div>
 			<div class='col-sm-12 col-lg-4 right-sidebar'>Search Bar</div>
 		</div>
