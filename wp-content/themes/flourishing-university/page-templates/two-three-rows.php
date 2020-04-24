@@ -243,6 +243,70 @@ get_header();
 						</div>
 					</div><!-- .col-sm-12 -->
 				</section><!-- section.row -->
+				<section class='row'>
+					<div class='col-sm-12 mb-3'>
+						<div class='section-title-bar my-2'>
+							<div class='section-title-bar__left'>
+								<?php echo load_inline_svg('icon-blogs-green.svg'); ?>
+								<span class='ml-2'>Blogs on Contemplation and Flourishing</span>
+							</div>
+							<div class='section-title-bar__right'>
+							</div>
+						</div>
+						<div class='section-body green'>
+							<div class='section-body__title p-2'>Periodic reflections on specific subjects by various scholars, teachers, and practitioners.</div>
+							<div class='section-body__content green'>
+								<div class='row equal'>
+									<div class='col-sm-12 col-lg-6'>
+										<div class='row-card px-2 py-3'>
+											<div class='row-card__title green pb-1'>
+												<span class='mr-2'>Reflections on the Great Perfection (Dzokchen)</span>
+												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
+											</div>
+											<div class='row-card__content py-2'>
+												<div class='row-card__content-text'>
+													Meandering thoughts on the Tibetan contemplative tradition known as the Great Perfection.
+												</div>
+												<div class='row-card__content-date-time green mt-3 pl-2'>
+													<div class='card-misc-list'>
+														<span class='upper'>AUTHOR</span>:
+														<span class='lower'>David Germano of the University of Virginia</span>
+													</div>
+												</div>
+											</div>
+											<div class='row-card__image'>
+												<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'reflections-on-great-perfection@2x.jpg'; ?>' alt='Reflections on the great perfection'>
+											</div>
+										</div>
+									</div>
+									<div class='col-sm-12 col-lg-6'>
+										<div class='row-card px-2 py-3'>
+											<div class='row-card__title green pb-1'>
+												<span class='mr-2'>Thoughts on Human Flourishing and Education</span>
+												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
+											</div>
+											<div class='row-card__content py-2'>
+												<div class='row-card__content-text'>
+													Thoughts on the future of education prioritizing flourishing.
+												</div>
+												<div class='row-card__content-date-time green mt-3 pl-2'>
+													<div class='card-misc-list'>
+														<span class='upper'>AUTHOR</span>:
+														<span class='lower'>Aneel Chima of Stanford University</span>
+													</div>
+												</div>
+											</div>
+											<div class='row-card__image'>
+												<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'thoughts-on-human-flourishing@2x.jpg'; ?>' alt='Thoughts on human flourishing and education'>
+											</div>
+										</div>
+									</div>
+								</div><!-- .row.equal -->
+							</div><!-- .section-body__content -->
+							<span class='white-line'></span>
+						</div>
+					</div><!-- .col-sm-12 -->
+				</section><!-- section.row -->
 			</div>
 			<div class='col-sm-12 col-lg-4 right-sidebar'>Search Bar</div>
 		</div>
