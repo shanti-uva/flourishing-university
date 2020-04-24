@@ -223,7 +223,7 @@ get_header();
 											<span class='lower'>Wednesday August 12, 2020, 6 pm EST</span>
 										</div>
 										<div class='blade-misc-list'>
-											<span class='upper'>PRESENTER`</span> -
+											<span class='upper'>PRESENTER</span> -
 											<span class='lower'>John Bultman of the University of Virginia</span>
 										</div>
 									</div>
