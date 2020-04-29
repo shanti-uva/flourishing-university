@@ -316,14 +316,14 @@ html,body {
 				display: flex;
 				align-items: center;
 				.blade-title__text {
-					font: 600 27px/36px "garamond-premier-pro",serif;
+					flex: 1;
+					font: 600 22px/30px "garamond-premier-pro",serif;
 					letter-spacing: 0.030rem;
 					color: $blue-400;
 				}
 			}
 			.blade-top__body {
 				@include sub-normal-text;
-				min-height: 154px;
 			}
 			@include media-breakpoint-up(xxl) {
 				.blade-top__body {
@@ -391,6 +391,7 @@ html,body {
 					margin-bottom: 0.8rem;
 					.title-span {
 						padding-bottom: 0.3rem;
+						margin-left: 0.5rem;
 					}
 				}
 				.blade-title__text {
