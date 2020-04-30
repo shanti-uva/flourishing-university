@@ -12,6 +12,14 @@ html,body {
 	font: 600 13px/16px lato, sans-serif;
 	letter-spacing: 0.65px;
 	margin-right: 2rem;
+	.menu-item {
+		&.current-menu-item {
+			background: $grey-300;
+			a.nav-link {
+				color: $blue-500;
+			}
+		}
+	}
 }
 
 .navbar-brand {
@@ -335,7 +343,7 @@ html,body {
 				justify-content: center;
 				align-items: center;
 				& > span {
-					font: italic 600 25px/36px "garamond-premier-pro",serif;
+					font: italic 600 20px/28px "garamond-premier-pro",serif;
 					letter-spacing: 0.050rem;
 					color: $blue-400;
 				}
