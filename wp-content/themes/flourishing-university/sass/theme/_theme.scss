@@ -628,6 +628,8 @@ html,body {
 		display: flex;
 		flex-direction: column;
 		.row-card__title {
+			display: flex;
+			align-items: center;
 			font: 600 14px/24px lato, sans-serif;
 			letter-spacing: 0.010rem;
 			color: $blue-400;
@@ -636,6 +638,9 @@ html,body {
 			}
 			&.orange {
 				border-bottom: 2px solid $orange-500;
+			}
+			& > svg {
+				flex: 0 0 auto;
 			}
 		}
 		.row-card__content {
@@ -668,11 +673,52 @@ html,body {
 			}
 		}
 		.row-card__image {
-			border: 2px solid #DE983687;
-			border-radius: 4px;
-			padding: 0.2rem;
+			border-top: 2px solid #DE983687;
+			border-bottom: 2px solid #DE983687;
+			padding: 0.2rem 0;
 			img {
 				border-radius: 2px;
+				border: 1px solid $green-300;
+			}
+		}
+	}
+	.curated-card {
+		position: relative;
+		border: 2px solid $green-300;
+    border-radius: 9px 15px 0px 9px;
+		padding: 0.2rem;
+		background: #fff;
+		.curated-card__top {
+			padding: 0.25rem 0.5rem;
+			.c-card__top-header	{
+				display: flex;
+				align-items: center;
+				.c-card__top-header-title {
+					flex: 1;
+					border-bottom: 2px solid $green-400;
+					color: $blue-500;
+					& > span {
+						font: 600 20px/30px "garamond-premier-pro",serif;
+						letter-spacing: 0.030rem;
+					}
+					a {
+						display: flex;
+						align-items: center;
+						position: absolute;
+						top: 5px;
+						right: 10px;
+						font: italic 400 10px/16px lato, sans-serif;
+						letter-spacing: 0.005rem;
+						color: $blue-500;
+						svg {
+							margin-left: 0.25rem;
+						}
+					}
+				}
+			}
+			.c-card__top-body {
+				font: 500 13px/18px lato, sans-serif;
+				letter-spacing: 0.005rem;
 			}
 		}
 	}
