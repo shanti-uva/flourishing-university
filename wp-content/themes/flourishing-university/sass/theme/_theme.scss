@@ -685,11 +685,17 @@ html,body {
 	.curated-card {
 		position: relative;
 		border: 2px solid $green-300;
+		border-left: 4px solid $green;
     border-radius: 9px 15px 0px 9px;
 		padding: 0.2rem;
 		background: #fff;
+		display: flex;
+    flex-direction: column;
 		.curated-card__top {
 			padding: 0.25rem 0.5rem;
+			flex: 1 1 40%;
+    	display: flex;
+    	flex-direction: column;
 			.c-card__top-header	{
 				display: flex;
 				align-items: center;
@@ -719,6 +725,60 @@ html,body {
 			.c-card__top-body {
 				font: 500 13px/18px lato, sans-serif;
 				letter-spacing: 0.005rem;
+				flex: 1 1 85px;
+			}
+			.c-card__top-search {
+				display: flex;
+				justify-content: center;
+				.header-search {
+					width: 100%;
+					max-width: 300px;
+					input, button {
+						background: $grey-500;
+					}
+				}
+			}
+		}
+		.curated-card__btm {
+			border: 3px solid $orange-600;
+			border-radius: 3px 15px 0 0;
+			position: relative;
+			flex: 1 1 60%;
+    	display: flex;
+    	flex-direction: column;
+			.c-card__btm-feat {
+				font: italic 400 11px/16px lato, sans-serif;
+				letter-spacing: 0.080rem;
+				display: inline;
+				border: 2px solid #F4BF5CAA;
+				border-radius: 15px;
+				padding: 0.2rem 0.6rem;
+				background: #fff;
+				position: absolute;
+				top: -15px;
+				left: 50%;
+				transform: translateX(-50%);
+				min-width: 150px;
+				text-align: center;
+			}
+			.c-card__btm-header {
+				font: 600 15px/21px lato, sans-serif;
+				letter-spacing: 0.018rem;
+				color: $blue-400;
+				border-bottom: 2px solid $orange-600;
+			}
+			.c-card__btm-body {
+				font: 500 13px/18px lato,sans-serif;
+				letter-spacing: .005rem;
+				flex: 1;
+			}
+			.c-card__btm-img {
+				border: 4px solid $orange-500;
+    		padding: 0.125rem;
+				border-radius: 0 14px 0 0;
+				img {
+					border-radius: 0 8px 0 0;
+				}
 			}
 		}
 	}

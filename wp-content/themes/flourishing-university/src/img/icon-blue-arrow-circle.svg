@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+	<g transform="translate(-513 -135)">
+		<g transform="translate(513 135)" fill="none" stroke="rgba(49,133,206,0.22)" stroke-width="3">
+			<circle cx="12.5" cy="12.5" r="12.5" stroke="none"/>
+			<circle cx="12.5" cy="12.5" r="11" fill="none"/>
+		</g>
+		<g transform="translate(517 139)">
+			<circle cx="8.5" cy="8.5" r="8.5" fill="#3185ce"/>
+			<rect width="10" height="3" transform="translate(0 7)" fill="#fff"/>
+			<path d="M4,0,8,7H0Z" transform="translate(14.315 4.587) rotate(90)" fill="#fff"/>
+		</g>
+	</g>
+</svg>
