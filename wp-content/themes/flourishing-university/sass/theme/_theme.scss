@@ -692,7 +692,7 @@ html,body {
 		display: flex;
     flex-direction: column;
 		.curated-card__top {
-			padding: 0.25rem 0.5rem;
+			padding: 1rem 0.5rem 0.25rem;
 			flex: 1 1 40%;
     	display: flex;
     	flex-direction: column;
@@ -704,7 +704,7 @@ html,body {
 					border-bottom: 2px solid $green-400;
 					color: $blue-500;
 					& > span {
-						font: 600 20px/30px "garamond-premier-pro",serif;
+						font: 600 20px/22px "garamond-premier-pro",serif;
 						letter-spacing: 0.030rem;
 					}
 					a {
@@ -725,7 +725,7 @@ html,body {
 			.c-card__top-body {
 				font: 500 13px/18px lato, sans-serif;
 				letter-spacing: 0.005rem;
-				flex: 1 1 85px;
+				flex: 1 1 100px;
 			}
 			.c-card__top-search {
 				display: flex;
