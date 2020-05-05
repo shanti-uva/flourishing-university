@@ -627,9 +627,15 @@ html,body {
 	.row-card {
 		display: flex;
 		flex-direction: column;
+		&.bordered {
+			border: 2px solid #DDDDDD;
+			border-radius: 8px 14px 0px 8px;
+			border-left: 4px solid $green-500;
+		}
+		&.white-bg {
+			background: #fff;
+		}
 		.row-card__title {
-			display: flex;
-			align-items: center;
 			font: 600 14px/24px lato, sans-serif;
 			letter-spacing: 0.010rem;
 			color: $blue-400;
@@ -638,6 +644,9 @@ html,body {
 			}
 			&.orange {
 				border-bottom: 2px solid $orange-500;
+			}
+			&.orange-lite {
+				border-bottom: 1px solid $orange-200;
 			}
 			& > svg {
 				flex: 0 0 auto;
