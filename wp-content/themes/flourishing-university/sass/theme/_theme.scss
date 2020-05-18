@@ -4,14 +4,20 @@ html,body {
 }
 
 // Header Styles
+#wrapper-navbar {
+	border-top: 2px solid orange;
+}
+
 #main-nav {
 	height: 42px;
+	border-top: 2px solid #fff;
+    border-bottom: 1px solid #eee;
 }
 
 .navbar-nav {
-	font: 600 13px/16px lato, sans-serif;
-	letter-spacing: 0.65px;
-	margin-right: 2rem;
+	font: 400 12px/15px lato, sans-serif;
+	letter-spacing: 0.85px;
+	margin: -2px auto !important;
 	.menu-item {
 		&.current-menu-item {
 			background: $grey-300;
@@ -51,9 +57,9 @@ html,body {
 }
 
 .logo-text {
-	font: 500 17px/18px lato, sans-serif;
+	font: 300 17px/18px lato, sans-serif;
 	letter-spacing: 0.85px;
-	margin-left: 0.5rem;
+	margin-left: 0.75rem;
 }
 
 .top-links {
@@ -114,19 +120,22 @@ html,body {
 // Homepage styles
 .front-hero {
 	background: $grey-600;
+	border-bottom: 3px solid #ffc967;
 	.greyborder {
 		max-width: 1520px;
-    margin: 0 auto;
-    background: $grey-100;
-    border-radius: 8px;
+		order: 1px solid #fff;
+    	margin: 0 auto;
+    	background: $grey-100;
+    	border-radius: 12px;
 		padding: 10px;
 		.orangeborder {
 			background: $orange-200;
-    	border-radius: 8px;
+    		border-radius: 8px;
 			padding: 4px;
 			.content {
 				background: #fff;
-    		border-radius: 8px;
+    			border-radius: 8px;
+    			padding:1.5rem;
 			}
 		}
 	}
@@ -134,13 +143,14 @@ html,body {
 
 .hero-item {
 	.hero-title {
-		font: 600 19px/33px "garamond-premier-pro",serif;
+		font: 400 19px/33px "garamond-premier-pro",serif;
 		color: $blue-400;
 		border-bottom: 2px solid $orange-200;
+		text-indent:.5rem;
 	}
 	@include media-breakpoint-up(xxl) {
 		.hero-title {
-			font-size: 23px;
+			font-size: 22px;
 		}
 	}
 	.item-content {
@@ -156,28 +166,21 @@ html,body {
 }
 
 .strips {
-	width: 100%;
-	height: 16px;
-	.green-strips {
-		background: $green;
-		height: 8px;
-		margin: 2px 0;
-	}
-	.orange-strips {
-		background: $orange-200;
-		height: 4px;
-	}
+	display:none
 }
 
 .front-content {
 	background: $grey-200;
+		background: #f7f7f7;
+	padding-top:1.5rem;
+    border-top: 1px solid #fff;
 }
 
 .section-region {
 	.region-title {
 		border-bottom: 3px solid $orange-200;
 		.region-text {
-			font: 500 23px/29px lato, sans-serif;
+			font: 400 21px/27px lato, sans-serif;
 			letter-spacing: 0.015rem;
 			color: $blue-600;
 			vertical-align: middle;
