@@ -10,4 +10,7 @@ wp-config.php
 *.sqlite
 
 # ignore Robots.txt file
-robots.txt
+/robots.txt
+
+# ignore the Github Webhook file
+/github-webhook-handler.php
