@@ -8,3 +8,6 @@ wp-config.php
 *.log
 *.sql
 *.sqlite
+
+# ignore Robots.txt file
+robots.txt
