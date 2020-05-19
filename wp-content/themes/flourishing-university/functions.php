@@ -99,7 +99,7 @@ function crb_attach_post_options() {
 }
 
 /**
- * Remove Editor from Homepage.
+ * Remove Main Editor Screen from Homepage.
  */
 add_action('admin_head', 'remove_content_editor');
 function remove_content_editor() {
