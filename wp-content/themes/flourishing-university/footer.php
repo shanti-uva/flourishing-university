@@ -16,16 +16,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
 <div class="wrapper-footer">
-	<div class="container-xxl drawline">
+	<div class="decorative-footer">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-12">
 				<footer class="main-footer py-3">
 					<div class='footer-tagline'>
-						<?php echo load_inline_svg('flourishing-logo.svg'); ?>
-						<span class='footer-tagline__text ml-2'>The University of Flourishing</span>
+						<div><?php echo load_inline_svg('flourishing-logo.svg'); ?>
+						<span class='footer-tagline__text ml-2'>The University of Flourishing</span><div>
+						<a class="flourishing-domain" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url">www.flourishingu.org</a>	
 					</div>
-					<div class='footer-byline mt-2'>Hosted by the University of Virginia’s Contemplative Sciences Center on behalf of the Flourishing Academic Network.</div>
-					<div class='footer-menu'>
+					<div class='footer-menu-container'>
 						<?php wp_nav_menu(
 							array(
 								'container_class' => 'footer-menu-wrapper',
@@ -40,6 +41,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div><!--col end -->
 		</div><!-- row end -->
 	</div><!-- container end -->
+	<div class="footer-byline">
+		<p>Hosted by the University of Virginia’s Contemplative Sciences Center on behalf of the Flourishing Academic Network.</p>
+		<span>&copy; <?php echo date ('Y'); ?> University of Flourishing</span> 
+	</div>
+	</div>	
 </div><!-- wrapper end -->
 </div><!-- #page we need this extra closing tag here -->
 <?php wp_footer(); ?>

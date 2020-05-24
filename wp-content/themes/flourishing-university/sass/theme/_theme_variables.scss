@@ -7,16 +7,16 @@ $grid-breakpoints: (
   sm: 576px,
   md: 768px,
   lg: 992px,
-	xl: 1200px,
-	xxl: 1600px
+  xl: 1200px,
+  xxl: 1600px
 );
 
 $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-	xl: 1140px,
-	xxl: 1520px
+  xl: 1140px,
+  xxl: 1600px
 );
 
 // Colors
@@ -28,19 +28,20 @@ $green-300: #BBC9B6;
 $green-400: #90BC7C;
 $green-500: #8CAD7E;
 
-$grey-100: #FFFFFFAC;
+$grey-100: #FFFFFF; // new
 $grey-200: #EEEEEE;
 $grey-300: #F7F7F7;
 $grey-400: #EDEDED;
 $grey-500: #FAFAFA;
 $grey-600: #BFC7C9;
-$grey-800: #333333;
+$grey-800: #444444;
 
+$blue-100: #3185CE; // new
 $blue-200: #1C5894;
 $blue-300: #1C74C1;
 $blue-400: #144A80;
 $blue-500: #356595;
-$blue-600: #2E4760;
+$blue-600: #144A80;
 $blue-700: #426D9F;
 
 $orange-200: #F4BF5C;
@@ -48,6 +49,7 @@ $orange-300: #E0D7B1;
 $orange-400: #DE9836;
 $orange-500: #D38B27;
 $orange-600: #F5D392;
+$orange-700: #EBAE59; // new
 
 $border-radius: 1rem;
 

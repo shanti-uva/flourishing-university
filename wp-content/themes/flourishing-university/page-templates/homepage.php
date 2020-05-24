@@ -13,10 +13,12 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 ?>
 
-<div class='page-wrapper mb-5' id='full-width-page-wrapper'>
+<div class='page-wrapper' id='full-width-page-wrapper'>
 	<section class="front-hero py-3">
-		<div class='greyborder'>
-			<div class='orangeborder'>
+		<div class='container-xxl csc-heroborder-1'>
+			<div class='csc-heroborder-2'>
+				<div class='csc-heroborder-3'>
+
 				<div class="container-xxl content py-1">
 					<div class="row">
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -75,19 +77,17 @@ get_header();
 						</div>
 					</div><!-- .row end -->
 				</div><!-- #container -->
+
+				</div>
 			</div>
 		</div>
 	</section>
 	<section class='front-content'>
-		<div class='strips bg-white'>
-			<div class='green-strips'></div>
-			<div class='orange-strips'></div>
-		</div>
-		<div class='container-xxl bg-white'>
+		<div class='container-xxl'>
 			<section class='section-region'>
 				<div class='region-title py-2 pl-4 mb-3'>
 					<?php echo load_inline_svg('icon-green-practices.svg'); ?>
-					<span class='region-text mx-2'>Contemplative Practices and Exercises</span>
+					<h2 class='region-text mx-2'>Contemplative Practices and Exercises</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -105,8 +105,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>A practice to develop deeper awareness and attentiveness to a single sense, such as sound.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -122,8 +121,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Participants in this exercise observe an object, image, or person three different ways and, each time, write what they “know” about the object.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -139,8 +137,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Cultivation of an observer awareness that watches whatever is going and coming in the stream.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 					</div>
@@ -149,7 +146,7 @@ get_header();
 			<section class='section-region'>
 				<div class='region-title py-2 pl-4 mb-3'>
 					<?php echo load_inline_svg('icon-community-green.svg'); ?>
-					<span class='region-text mx-2'>Community for Contemplation and Flourishing</span>
+					<h2 class='region-text mx-2'>Community for Contemplation and Flourishing</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -177,8 +174,7 @@ get_header();
 											<span class='lower'>Leslie Hubbard of the University of Virginia</span>
 										</div>
 									</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -200,8 +196,7 @@ get_header();
 											<span class='lower'>Aneel Chima of Stanford University</span>
 										</div>
 									</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -227,8 +222,7 @@ get_header();
 											<span class='lower'>John Bultman of the University of Virginia</span>
 										</div>
 									</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 					</div>
@@ -237,7 +231,7 @@ get_header();
 			<section class='section-region'>
 				<div class='region-title py-2 pl-4 mb-3'>
 					<?php echo load_inline_svg('icon-encyclopedia-green.svg'); ?>
-					<span class='region-text mx-2'>The Encyclopedia of Contemplation</span>
+					<h2 class='region-text mx-2'>The Encyclopedia of Contemplation</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -255,8 +249,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Acting out impulses until exhaustion into naturalness.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -272,8 +265,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Immersion in the sounds of the five elements.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -289,8 +281,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Cultivation of spontaneous visions of Buddhas in four visionary sequences.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 					</div>
@@ -299,7 +290,7 @@ get_header();
 			<section class='section-region'>
 				<div class='region-title py-2 pl-4 mb-3'>
 					<?php echo load_inline_svg('icon-library-green.svg'); ?>
-					<span class='region-text mx-2'>The Library for Flourishing</span>
+					<h2 class='region-text mx-2'>The Library for Flourishing</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -317,8 +308,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Guides to multimedia resources that are curated to provide a general introduction on a specific topic.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -334,8 +324,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Recordings of talks, interviews, instructions, practices, and other topics. </div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -351,8 +340,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Topical multimedia bibliographies with books, articles, videos, podcasts, and informative resources.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 					</div>
@@ -361,7 +349,7 @@ get_header();
 			<section class='section-region'>
 				<div class='region-title py-2 pl-4 mb-3'>
 					<?php echo load_inline_svg('icon-schools-green.svg'); ?>
-					<span class='region-text mx-2'>Student Flourishing in Higher Education</span>
+					<h2 class='region-text mx-2'>Student Flourishing in Higher Education</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -379,8 +367,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Fashioning the grounds for excellence, resiliency, and care for students flourishing in all quarters of life.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -396,8 +383,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Supporting teachers own self-care as well as exploration of pedagogies of flourishing.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -413,8 +399,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Offering support and inspiration for systemic transformation of colleges and universities to better support student flourishing.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 					</div>
@@ -423,7 +408,7 @@ get_header();
 			<section class='section-region'>
 				<div class='region-title py-2 pl-4 mb-3'>
 					<?php echo load_inline_svg('icon-kids-green.svg'); ?>
-					<span class='region-text mx-2'>Flourishing Kids in K-12 Schools</span>
+					<h2 class='region-text mx-2'>Flourishing Kids in K-12 Schools</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -441,8 +426,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Cultivating students’ social and emotional well-being in PreK-12 classrooms.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -458,8 +442,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Fostering and researching mindfulness among students to support flourishing children.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 						<div class='col-sm-12 col-md-6 col-xl-4'>
@@ -475,8 +458,7 @@ get_header();
 										</a>
 									</div>
 									<div class='blade-text'>Supporting teachers’ integrated well-being in PreK-12 schools.</div>
-								</div>
-								<div class='bottom-line'></div>
+								</div>							
 							</div>
 						</div>
 					</div>
