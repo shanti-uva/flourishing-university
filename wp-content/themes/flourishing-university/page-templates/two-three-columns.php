@@ -56,7 +56,7 @@ get_header();
 										<div class='blade-top__body'>
 											Formal secular contemplative practices involve activities intended to be done on a regular basis with one’s dedicated attention during a set aside time; informal practices are also done in a repeated fashion, but are integrated along with other ordinary activity in one’s life.
 										</div>
-										<div class='blade-top__search my-3'>
+										<div class='blade-top__search my-2'>
 											<span class='mr-2'>Search</span>
 											<div class="input-group flex-nowrap header-search mr-2">
 												<input type="search" class="form-control py-2 border-right-0" placeholder="Contemplative Practices..." aria-label="Search" aria-describedby="addon-wrapping">
@@ -216,7 +216,7 @@ get_header();
 										<div class='blade-top__body'>
 											Exercises are informal one-time activities on a given theme or topic that support reflection, analysis, inquiry, and exchange. They may be ways to make classes more experiential and engaged, or be solitary reflective exercises.
 										</div>
-										<div class='blade-top__search my-3'>
+										<div class='blade-top__search my-2'>
 											<span class='mr-2'>Search</span>
 											<div class="input-group flex-nowrap header-search mr-2">
 												<input type="search" class="form-control py-2 border-right-0" placeholder="Contemplative Practices..." aria-label="Search" aria-describedby="addon-wrapping">
@@ -352,7 +352,7 @@ get_header();
 								</div>
 							</div>
 						</div>
-						
+
 					</div><!-- .col-sm-12.col-md-6 -->
 				</div> <!-- .row -->
 

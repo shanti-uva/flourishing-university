@@ -44,12 +44,13 @@ $blue-400: #144A80;
 $blue-500: #356595;
 $blue-600: #1b5690;
 $blue-700: #426D9F;
+$blue-800: #1B334B;
 
 $orange-100: #ffc967;
 $orange-200: #F4BF5C;
 $orange-300: #E0D7B1;
 $orange-400: #DE9836;
-$orange-500: #bf8532;
+$orange-500: #c3852b;
 $orange-600: #F5D392;
 $orange-700: #EBAE59; // new
 
@@ -61,17 +62,9 @@ $navbar-dark-color: #fff;
 @mixin normal-text {
 	font: 400 15px/20px lato, sans-serif;
 	color: $grey-800;
-	letter-spacing: 0;
-}
-
-@mixin super-normal-text {
-	font: 400 14px/18px lato, sans-serif;
-	color: $grey-800;
-	letter-spacing: 0;
 }
 
 @mixin sub-normal-text {
-	font: 400 13px/18px lato, sans-serif;
+	font: 400 14px/18px lato, sans-serif;
 	color: $grey-800;
-	letter-spacing: 0;
 }

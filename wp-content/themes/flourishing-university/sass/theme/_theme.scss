@@ -15,8 +15,8 @@ html,body {
 }
 
 .navbar-nav {
-	font: 300 13px/32px lato, sans-serif;
-	letter-spacing: 0.85px;
+	font: 300 12px/28px 'Open Sans', sans-serif;
+	letter-spacing: 0.75px;
 	margin: 0 auto !important;
 	.menu-item {
 		a.nav-link{
@@ -41,12 +41,13 @@ html,body {
 	margin-right: inherit;
 	.logo-img {
 		display: inline-flex;
-		positions:relative;
+		position:relative;
 		top: .1rem;
 	}
 	.logo-text {
-		font: 300 17px/18px lato, sans-serif;
+		font: 300 17px/18px 'Open Sans', sans-serif;
 		letter-spacing: 0.85px;
+		text-indent: 1rem;
 	}
 }
 
@@ -103,7 +104,7 @@ html,body {
 			display: flex;
 			text-align: center;
 			.footer-tagline__text {
-				font: 400 16px/20px lato, sans-serif;
+				font: 400 16px/20px 'Open Sans', sans-serif;
 				letter-spacing: 0.030rem;
 			}
 			.flourishing-domain {
@@ -118,7 +119,7 @@ html,body {
     	margin-top: 1rem;
 		.nav .nav-item a {
 			color: #eee;
-			font: 500 13px/20px lato, sans-serif;
+			font: 500 13px/20px 'Open Sans', sans-serif;
 			letter-spacing: 0.030rem;
 		}
 		.nav-item + .nav-item {
@@ -134,7 +135,7 @@ html,body {
 		position:absolute;
 		bottom:0;
 		p {
-			font: 400 12px/17px lato, sans-serif;
+			font: 400 12px/17px 'Open Sans', sans-serif;
 			color:#fff;
 			letter-spacing: 0.035rem;
 			margin:0;
@@ -183,7 +184,7 @@ html,body {
 			.content {
 				background: #fff;
     			border-radius: 9px;
-    			padding:1.5rem;
+    			padding: .5rem 1.5rem .75rem;
 			}
 		}
 	}
@@ -210,7 +211,7 @@ html,body {
 		}
 		.item-text {
 			@include normal-text;
-
+			color: $blue-800;
 		}
 	}
 }
@@ -228,7 +229,7 @@ html,body {
 		padding-left: 1.5rem;
 		margin-bottom: 1rem;
 		h2 {
-			font: 500 22px/29px lato, sans-serif;
+			font: 400 22px/29px 'Open Sans', sans-serif;
 			letter-spacing: 0;
 			color: $blue-500;
 			vertical-align: middle;
@@ -237,7 +238,7 @@ html,body {
 		.badge-blue {
 			background-color: $blue-100;
 			color: #fff;
-			font: italic 600 12px/15px lato, sans-serif;
+			font: italic 600 12px/15px 'Open Sans', sans-serif;
 		    padding:.2rem 1rem .25rem 1rem;
 		    border-radius: 10rem;
 		    letter-spacing: .075rem;
@@ -271,7 +272,7 @@ html,body {
 			flex: 1 1 auto;
 		}
 		.blade-title {
-			font: 500 17px/24px lato, sans-serif;
+			font: 500 17px/24px 'Open Sans', sans-serif;
 			letter-spacing: 0.010rem;
 			border-bottom: 2px solid $orange-100;
 			color: $blue-400;
@@ -290,18 +291,14 @@ html,body {
 				vertical-align: text-bottom;
 			}
 		}
-		@include media-breakpoint-up(xxl) {
-			.blade-title {
-				font-size: 19px;
-			}
-		}
 		.blade-text {
 			@include normal-text;
 			flex: 1 1 auto;
 			padding-left:.3rem;
+			   margin-bottom: 1rem;
 		}
 		.blade-misc {
-			font: 600 12px/16px lato, sans-serif;
+			font: 600 12px/16px 'Open Sans', sans-serif;
 			letter-spacing: 0.020rem;
 			border-left: 3px solid $orange-200;
 			.upper {
@@ -357,7 +354,7 @@ html,body {
 			}
 		}
 		.sideTwo {
-			font: italic 500 12px/17px lato, sans-serif;
+			font: italic 500 12px/17px 'Open Sans', sans-serif;
 			letter-spacing: 0.025rem;
 			border-left: 1px solid #ffffff8c;
 		}
@@ -418,7 +415,7 @@ html,body {
 			}
 			@include media-breakpoint-up(xxl) {
 				.blade-top__body {
-					min-height: 100px;
+					min-height: 80px;
 				}
 			}
 			.blade-top__search {
@@ -437,7 +434,7 @@ html,body {
 		}
 	}
 	.blade-section {
-		margin-left: 2px;
+		margin-left: 4px;
         padding: 0.5rem 0.8rem;
     	margin-bottom: 2px;
 		&.green {
@@ -456,12 +453,12 @@ html,body {
 			color: #fff;
 			padding: 0 0.5rem 0.5rem;
 			& > div:first-child {
-				font: 300 23px/28px lato, sans-serif;
+				font: 100 21px/26px 'Open Sans', sans-serif;
 				letter-spacing: 0.075rem;
-				margin-bottom: 0.2rem;
+				margin-bottom: 0.1rem;
 			}
 			& > div:last-child {
-				margin-bottom:.75rem;
+				margin-bottom:.5rem;
 			}
 		}
 		.blade-section__body {
@@ -477,7 +474,7 @@ html,body {
 				overflow: auto;
 				.blade-section__body-content-title {
 					display: flex;
-    			align-items: center;
+    				align-items: center;
 					margin-bottom: 0.8rem;
 					.title-span {
 						padding-bottom: 0.3rem;
@@ -485,9 +482,9 @@ html,body {
 					}
 				}
 				.blade-title__text {
-					font: 500 16px/20px lato, sans-serif;
+					font: 500 16px/20px 'Open Sans', sans-serif;
 					letter-spacing: 0.005rem;
-					color: $blue-400;
+					color: $blue-500;
 				}
 				@include media-breakpoint-up(xxl) {
 					.blade-title__text {
@@ -496,7 +493,7 @@ html,body {
 					}
 				}
 				.blade-section__body-content-text {
-					font: 400 14px/18px lato, sans-serif;
+					font: 400 14px/18px 'Open Sans', sans-serif;
 					letter-spacing: 0.005rem;
 				}
 				.blade-section__body-content-count {
@@ -522,7 +519,7 @@ html,body {
 				transform: translateX(-50%);
 				width: 80%;
 				text-align: center;
-				font: italic 600 15px/18px lato, sans-serif;
+				font: italic 600 15px/18px 'Open Sans', sans-serif;
 				a {
 					color: #fff;
 				}
@@ -604,7 +601,7 @@ html,body {
 				padding-bottom: .3rem;
 				display: flex;
 				align-items: center;
-				font: 500 16px/20px lato, sans-serif;
+				font: 500 16px/20px 'Open Sans', sans-serif;
 				letter-spacing: 0.005rem;
 				color: $blue-400;
 				svg {
@@ -612,7 +609,7 @@ html,body {
 				}
 			}
 			.featured-body__item-text-content {
-				font: 400 14px/18px lato, sans-serif;
+				font: 400 14px/18px 'Open Sans', sans-serif;
 				letter-spacing: 0.005rem;
 			}
 		}
@@ -646,7 +643,7 @@ html,body {
 			}
 		}
 		.sideTwo {
-			font: italic 600 12px/16px lato, sans-serif;
+			font: italic 600 12px/16px 'Open Sans', sans-serif;
 			letter-spacing: 0.025rem;
 			border-left: 1px solid #ffffff8c;
 		}
@@ -654,12 +651,12 @@ html,body {
 	.badge-green {
 		background-color: $green-200;
 		color: #fff;
-		font: italic 400 12px/12px lato, sans-serif;
+		font: italic 400 12px/12px 'Open Sans', sans-serif;
 	}
 	.badge-orange {
 		background-color: $orange-500;
 		color: #fff;
-		font: italic 400 12px/12px lato, sans-serif;
+		font: italic 400 12px/12px 'Open Sans', sans-serif;
 	}
 	.section-title-bar {
 		display: flex;
@@ -685,7 +682,7 @@ html,body {
 		}
 		.section-body__title {
 			color: #fff;
-			font: italic 400 12px/18px lato, sans-serif;
+			font: italic 400 12px/18px 'Open Sans', sans-serif;
 			letter-spacing: 0.050rem;
 			border-bottom: 1px solid #fff;
 			margin-bottom: 2px;
@@ -718,7 +715,7 @@ html,body {
 			background: #fff;
 		}
 		.row-card__title {
-			font: 600 14px/24px lato, sans-serif;
+			font: 600 14px/24px 'Open Sans', sans-serif;
 			letter-spacing: 0.010rem;
 			color: $blue-400;
 			&.green {
@@ -740,11 +737,11 @@ html,body {
 			flex-direction: column;
 			.row-card__content-text {
 				flex: 1;
-				font: 400 13px/17px lato, sans-serif;
+				font: 400 13px/17px 'Open Sans', sans-serif;
 				letter-spacing: 0.005rem;
 			}
 			.row-card__content-date-time {
-				font: 600 12px/16px lato, sans-serif;
+				font: 600 12px/16px 'Open Sans', sans-serif;
 				letter-spacing: 0.020rem;
 				border-left: 3px solid;
 				color: $blue-400;
@@ -804,7 +801,7 @@ html,body {
 						position: absolute;
 						top: 5px;
 						right: 10px;
-						font: italic 400 10px/16px lato, sans-serif;
+						font: italic 400 10px/16px 'Open Sans', sans-serif;
 						letter-spacing: 0.005rem;
 						color: $blue-500;
 						svg {
@@ -814,7 +811,7 @@ html,body {
 				}
 			}
 			.c-card__top-body {
-				font: 500 13px/18px lato, sans-serif;
+				font: 500 13px/18px 'Open Sans', sans-serif;
 				letter-spacing: 0.005rem;
 				flex: 1 1 100px;
 			}
@@ -838,7 +835,7 @@ html,body {
     	display: flex;
     	flex-direction: column;
 			.c-card__btm-feat {
-				font: italic 400 11px/16px lato, sans-serif;
+				font: italic 400 11px/16px 'Open Sans', sans-serif;
 				letter-spacing: 0.080rem;
 				display: inline;
 				border: 2px solid #F4BF5CAA;
@@ -853,13 +850,13 @@ html,body {
 				text-align: center;
 			}
 			.c-card__btm-header {
-				font: 600 15px/21px lato, sans-serif;
+				font: 600 15px/21px 'Open Sans', sans-serif;
 				letter-spacing: 0.018rem;
 				color: $blue-400;
 				border-bottom: 2px solid $orange-600;
 			}
 			.c-card__btm-body {
-				font: 500 13px/18px lato,sans-serif;
+				font: 500 13px/18px 'Open Sans',sans-serif;
 				letter-spacing: .005rem;
 				flex: 1;
 			}
