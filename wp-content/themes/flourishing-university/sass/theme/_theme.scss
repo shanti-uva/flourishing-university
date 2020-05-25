@@ -15,16 +15,18 @@ html,body {
 }
 
 .navbar-nav {
-	font: 300 13px/15px lato, sans-serif;
+	font: 300 13px/32px lato, sans-serif;
 	letter-spacing: 0.85px;
-	margin: -2px auto !important;
+	margin: 0 auto !important;
 	.menu-item {
+		a.nav-link{
+			padding-left: 1.5rem;
+			padding-right: 1.5rem;
+		}
 		&.current-menu-item {
 			background: $grey-300;
 			a.nav-link {
 				color: $blue-500;
-				padding-left: 0.75rem;
-				padding-right: 0.75rem;
 			}
 		}
 	}
