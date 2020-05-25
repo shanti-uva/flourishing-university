@@ -132,7 +132,76 @@ get_header();
 								</div>
 							</div>
 						</div>
+
+						<div class='featured-section'>
+										<div class='featured-top'>
+											<div class='featured-top__item pl-4'>
+												<?php echo load_inline_svg('icon-practices-white-treepose.svg'); ?>
+												<span class="featured-top__item-title">Featured Practices</span>
+											</div>
+										</div>
+										<div class='featured-bottom green-bg'>
+											<div class='white-bg'>
+												<div class='featured-body'>
+													<div class='featured-body__item mb-3'>
+														<div class='featured-body__item-img'>
+															<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'sound-silence-practice-square@3x.jpg'; ?>' alt='Sound and Silence Practice'>
+														</div>
+														<div class='featured-body__item-text'>
+															<div class='featured-body__item-text-title'>
+																<span class='mr-2'>Sound and Silence Practice</span>
+																<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
+															</div>
+															<div class='featured-body__item-text-content mt-3'>
+																A practice to cultivate deeper awareness and attentiveness to a single sense, such as sound.
+															</div>
+														</div>
+													</div><!-- .featured-body__item -->
+													<div class='featured-body__item mb-3'>
+														<div class='featured-body__item-img'>
+															<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'progressive-muscle-relaxation@3x.jpg'; ?>' alt='Progressive Muscle Relaxation'>
+														</div>
+														<div class='featured-body__item-text'>
+															<div class='featured-body__item-text-title'>
+																<span class='mr-2'>Progressive Muscle Relaxation</span>
+																<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
+															</div>
+															<div class='featured-body__item-text-content mt-3'>
+																Progressive muscle relaxation is a practice of tensing and relaxing muscles one group at a time as a way of relaxing the mind and relieving stress.
+															</div>
+														</div>
+													</div><!-- .featured-body__item -->
+													<div class='featured-body__item mb3'>
+														<div class='featured-body__item-img'>
+															<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'open-awareness-practice@3x.jpg'; ?>' alt='Open Awareness Practice'>
+														</div>
+														<div class='featured-body__item-text'>
+															<div class='featured-body__item-text-title'>
+																<span class='mr-2'>Open Awareness Practice</span>
+																<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
+															</div>
+															<div class='featured-body__item-text-content mt-3'>
+																Cultivation of an observer awareness that watches whatever is coming and going in the stream.
+															</div>
+														</div>
+													</div><!-- .featured-body__item -->
+												</div>
+											</div>
+										</div>
+									</div>
 					</div><!-- .col-sm-12.col-md-6 -->
+
+
+
+
+
+
+
+
+
+
+
+
 					<div class='col-sm-12 col-md-6'>
 						<div class='section-one'>
 							<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'exercise-by-beach@2x.jpg'; ?>' alt='Exercises'>
@@ -220,71 +289,13 @@ get_header();
 											</div>
 										</div>
 									</div> <!-- .blade-section -->
+
+									
+
 								</div>
 							</div>
 						</div>
-					</div><!-- .col-sm-12.col-md-6 -->
-				</div> <!-- .row -->
-				<div class='row mt-5'>
-					<div class='col-sm-12 col-md-6'>
-						<div class='featured-section'>
-							<div class='featured-top'>
-								<div class='featured-top__item pl-4'>
-									<?php echo load_inline_svg('icon-practices-white-treepose.svg'); ?>
-									<span class="featured-top__item-title">Featured Practices</span>
-								</div>
-							</div>
-							<div class='featured-bottom green-bg'>
-								<div class='white-bg'>
-									<div class='featured-body'>
-										<div class='featured-body__item mb-3'>
-											<div class='featured-body__item-img'>
-												<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'sound-silence-practice-square@3x.jpg'; ?>' alt='Sound and Silence Practice'>
-											</div>
-											<div class='featured-body__item-text'>
-												<div class='featured-body__item-text-title'>
-													<span class='mr-2'>Sound and Silence Practice</span>
-													<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
-												</div>
-												<div class='featured-body__item-text-content mt-3'>
-													A practice to cultivate deeper awareness and attentiveness to a single sense, such as sound.
-												</div>
-											</div>
-										</div><!-- .featured-body__item -->
-										<div class='featured-body__item mb-3'>
-											<div class='featured-body__item-img'>
-												<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'progressive-muscle-relaxation@3x.jpg'; ?>' alt='Progressive Muscle Relaxation'>
-											</div>
-											<div class='featured-body__item-text'>
-												<div class='featured-body__item-text-title'>
-													<span class='mr-2'>Progressive Muscle Relaxation</span>
-													<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
-												</div>
-												<div class='featured-body__item-text-content mt-3'>
-													Progressive muscle relaxation is a practice of tensing and relaxing muscles one group at a time as a way of relaxing the mind and relieving stress.
-												</div>
-											</div>
-										</div><!-- .featured-body__item -->
-										<div class='featured-body__item mb3'>
-											<div class='featured-body__item-img'>
-												<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'open-awareness-practice@3x.jpg'; ?>' alt='Open Awareness Practice'>
-											</div>
-											<div class='featured-body__item-text'>
-												<div class='featured-body__item-text-title'>
-													<span class='mr-2'>Open Awareness Practice</span>
-													<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
-												</div>
-												<div class='featured-body__item-text-content mt-3'>
-													Cultivation of an observer awareness that watches whatever is coming and going in the stream.
-												</div>
-											</div>
-										</div><!-- .featured-body__item -->
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class='col-sm-12 col-md-6'>
+
 						<div class='featured-section'>
 							<div class='featured-top'>
 								<div class='featured-top__item pl-4'>
@@ -341,8 +352,10 @@ get_header();
 								</div>
 							</div>
 						</div>
-					</div>
+						
+					</div><!-- .col-sm-12.col-md-6 -->
 				</div> <!-- .row -->
+
 			</div>
 			<div class='col-sm-12 col-md-4 col-lg-3 right-sidebar'>Search Bar</div>
 		</div>

@@ -22,7 +22,7 @@ $container-max-widths: (
 // Colors
 $primary: #356595;
 
-$green: #749D62;
+$green: #6c925b; // new
 $green-200: #648B53; 
 $green-300: #BBC9B6;
 $green-400: #90BC7C;
@@ -34,20 +34,22 @@ $grey-300: #F7F7F7;
 $grey-400: #EDEDED;
 $grey-500: #FAFAFA;
 $grey-600: #BFC7C9;
-$grey-800: #444444;
+$grey-800: #555555; // new
+$grey-900: #333333; // new
 
 $blue-100: #3185CE; // new
 $blue-200: #1C5894;
 $blue-300: #1C74C1;
 $blue-400: #144A80;
 $blue-500: #356595;
-$blue-600: #144A80;
+$blue-600: #1b5690;
 $blue-700: #426D9F;
 
+$orange-100: #ffc967;
 $orange-200: #F4BF5C;
 $orange-300: #E0D7B1;
 $orange-400: #DE9836;
-$orange-500: #c37d1a;
+$orange-500: #bf8532;
 $orange-600: #F5D392;
 $orange-700: #EBAE59; // new
 
@@ -62,8 +64,14 @@ $navbar-dark-color: #fff;
 	letter-spacing: 0;
 }
 
+@mixin super-normal-text {
+	font: 400 14px/18px lato, sans-serif;
+	color: $grey-800;
+	letter-spacing: 0;
+}
+
 @mixin sub-normal-text {
 	font: 400 13px/18px lato, sans-serif;
 	color: $grey-800;
-	letter-spacing: 0.005rem;
+	letter-spacing: 0;
 }

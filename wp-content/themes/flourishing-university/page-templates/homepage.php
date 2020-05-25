@@ -85,9 +85,9 @@ get_header();
 	<section class='front-content'>
 		<div class='container-xxl'>
 			<section class='section-region'>
-				<div class='region-title py-2 pl-4 mb-3'>
+				<div class='region-title'>
 					<?php echo load_inline_svg('icon-green-practices.svg'); ?>
-					<h2 class='region-text mx-2'>Contemplative Practices and Exercises</h2>
+					<h2 class='region-text mx-3'>Contemplative Practices and Exercises</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -144,9 +144,9 @@ get_header();
 				</div>
 			</section>
 			<section class='section-region'>
-				<div class='region-title py-2 pl-4 mb-3'>
+				<div class='region-title'>
 					<?php echo load_inline_svg('icon-community-green.svg'); ?>
-					<h2 class='region-text mx-2'>Community for Contemplation and Flourishing</h2>
+					<h2 class='region-text mx-3'>Community for Contemplation and Flourishing</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -229,9 +229,9 @@ get_header();
 				</div>
 			</section>
 			<section class='section-region'>
-				<div class='region-title py-2 pl-4 mb-3'>
+				<div class='region-title'>
 					<?php echo load_inline_svg('icon-encyclopedia-green.svg'); ?>
-					<h2 class='region-text mx-2'>The Encyclopedia of Contemplation</h2>
+					<h2 class='region-text mx-3'>The Encyclopedia of Contemplation</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -288,9 +288,9 @@ get_header();
 				</div>
 			</section>
 			<section class='section-region'>
-				<div class='region-title py-2 pl-4 mb-3'>
+				<div class='region-title'>
 					<?php echo load_inline_svg('icon-library-green.svg'); ?>
-					<h2 class='region-text mx-2'>The Library for Flourishing</h2>
+					<h2 class='region-text mx-3'>The Library for Flourishing</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -347,9 +347,9 @@ get_header();
 				</div>
 			</section>
 			<section class='section-region'>
-				<div class='region-title py-2 pl-4 mb-3'>
+				<div class='region-title'>
 					<?php echo load_inline_svg('icon-schools-green.svg'); ?>
-					<h2 class='region-text mx-2'>Student Flourishing in Higher Education</h2>
+					<h2 class='region-text mx-3'>Student Flourishing in Higher Education</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
@@ -406,9 +406,9 @@ get_header();
 				</div>
 			</section>
 			<section class='section-region'>
-				<div class='region-title py-2 pl-4 mb-3'>
+				<div class='region-title'>
 					<?php echo load_inline_svg('icon-kids-green.svg'); ?>
-					<h2 class='region-text mx-2'>Flourishing Kids in K-12 Schools</h2>
+					<h2 class='region-text mx-3'>Flourishing Kids in K-12 Schools</h2>
 					<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 				</div>
 				<div class='region-blades'>
