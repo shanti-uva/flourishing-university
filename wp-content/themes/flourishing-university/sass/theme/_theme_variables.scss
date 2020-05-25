@@ -23,12 +23,12 @@ $container-max-widths: (
 $primary: #356595;
 
 $green: #749D62;
-$green-200: #648B53;
+$green-200: #648B53; 
 $green-300: #BBC9B6;
 $green-400: #90BC7C;
 $green-500: #8CAD7E;
 
-$grey-100: #FFFFFF; // new
+$grey-100: #FFFFFF;
 $grey-200: #EEEEEE;
 $grey-300: #F7F7F7;
 $grey-400: #EDEDED;
@@ -47,7 +47,7 @@ $blue-700: #426D9F;
 $orange-200: #F4BF5C;
 $orange-300: #E0D7B1;
 $orange-400: #DE9836;
-$orange-500: #D38B27;
+$orange-500: #c37d1a;
 $orange-600: #F5D392;
 $orange-700: #EBAE59; // new
 
@@ -57,15 +57,13 @@ $navbar-dark-color: #fff;
 
 // Mixins
 @mixin normal-text {
-	font: 400 16px/20px 'Open Sans', sans-serif;
-	font-family:'Open Sans','Segoe UI','Lucida Grande',Tahoma,sans-serif;
+	font: 400 15px/20px lato, sans-serif;
 	color: $grey-800;
-	letter-spacing: 0.015rem;
+	letter-spacing: 0;
 }
 
 @mixin sub-normal-text {
-	font: 400 15px/19px 'Open Sans', sans-serif;
-	font-family:'Open Sans','Segoe UI','Lucida Grande',Tahoma,sans-serif;
+	font: 400 13px/18px lato, sans-serif;
 	color: $grey-800;
 	letter-spacing: 0.005rem;
 }

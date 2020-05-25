@@ -24,7 +24,7 @@ get_header();
 						<div class='col-sm-12 col-md-6 col-xl-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>Contemplative Practices and Exercises</h3>
-								<div class='item-content mt-3'>
+								<div class='item-content'>
 									<?php echo load_inline_svg('icon-contemplative-blue.svg'); ?>
 									<div class="item-text ml-2">Offering deeply annotated contemplative practices and reflective exercises for personal use, as well as adaptation and contextualization for a broad variety of settings.</div>
 								</div>
@@ -33,7 +33,7 @@ get_header();
 						<div class='col-sm-12 col-md-6 col-xl-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>Community for Contemplation and Flourishing</h3>
-								<div class='item-content mt-3'>
+								<div class='item-content'>
 									<?php echo load_inline_svg('icon-community-blue.svg'); ?>
 									<div class="item-text ml-2">Presenting contemplative traditions through their individual practices and the integration of those practices into broader pathways of practice.</div>
 								</div>
@@ -42,7 +42,7 @@ get_header();
 						<div class='col-sm-12 col-md-6 col-xl-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>The Encyclopedia of Contemplation</h3>
-								<div class='item-content mt-3'>
+								<div class='item-content'>
 									<?php echo load_inline_svg('icon-encyclopedia-blue.svg'); ?>
 									<div class="item-text ml-2">Exploring the world’s contemplative traditions across tradition, culture, and time from ancient roots to modern manifestations in their fullest depths and widest ranges.</div>
 								</div>
@@ -51,7 +51,7 @@ get_header();
 						<div class='col-sm-12 col-md-6 col-xl-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>Library for Flourishing</h3>
-								<div class='item-content mt-3'>
+								<div class='item-content'>
 									<?php echo load_inline_svg('icon-library-blue.svg'); ?>
 									<div class="item-text ml-2">Searching and browsing to access all the resources of the University of Flourishing, including audio-video, research briefs, practices, images, encyclopedia entries, bibliographies, and more.</div>
 								</div>
@@ -60,7 +60,7 @@ get_header();
 						<div class='col-sm-12 col-md-6 col-xl-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>Student Flourishing in Higher Education</h3>
-								<div class='item-content mt-3'>
+								<div class='item-content'>
 									<?php echo load_inline_svg('icon-schools-blue.svg'); ?>
 									<div class="item-text ml-2">Exploring theory and practice involved in institutions of higher education systematically transforming to better facilitate the flourishing of students, including with contemplative approaches.</div>
 								</div>
@@ -69,7 +69,7 @@ get_header();
 						<div class='col-sm-12 col-md-6 col-xl-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>Flourishing Kids in K-12 Schools</h3>
-								<div class='item-content mt-3'>
+								<div class='item-content'>
 									<?php echo load_inline_svg('icon-kids-blue.svg'); ?>
 									<div class="item-text ml-2">Providing diverse curated resources for educators, students, administrators, counselors, and parents involved in K-12 with a focus on the holistic flourishing of students.</div>
 								</div>
