@@ -57,13 +57,15 @@ $navbar-dark-color: #fff;
 
 // Mixins
 @mixin normal-text {
-	font: 400 16px/20px lato, sans-serif;
+	font: 400 16px/20px 'Open Sans', sans-serif;
+	font-family:'Open Sans','Segoe UI','Lucida Grande',Tahoma,sans-serif;
 	color: $grey-800;
 	letter-spacing: 0.015rem;
 }
 
 @mixin sub-normal-text {
-	font: 400 15px/19px lato, sans-serif;
+	font: 400 15px/19px 'Open Sans', sans-serif;
+	font-family:'Open Sans','Segoe UI','Lucida Grande',Tahoma,sans-serif;
 	color: $grey-800;
 	letter-spacing: 0.005rem;
 }
