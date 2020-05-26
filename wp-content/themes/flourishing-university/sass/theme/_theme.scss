@@ -45,7 +45,7 @@ html,body {
 		top: .1rem;
 	}
 	.logo-text {
-		font: 300 17px/18px 'Open Sans', sans-serif;
+		font: 100 16px/18px 'Open Sans', sans-serif;
 		letter-spacing: 0.85px;
 		text-indent: 1rem;
 	}
@@ -68,13 +68,12 @@ html,body {
 		.fa{
 			font-size: 1.15em;
 		    position: relative;
-		    bottom: .4rem;
-		    left:.2rem;
+		    bottom: .2rem;
+		    left: 0;
 		    color: #999 !important;
 		}
 	}
 }
-
 .top-links {
 	& > a {
 		margin-left: 0.6rem;
@@ -219,7 +218,7 @@ html,body {
 .front-content {
 	background: $grey-300;
 	padding-top:1.5rem;
-	padding-bottom:3rem;
+	padding-bottom:5rem;
     border-top: 1px solid #fff;
 }
 
@@ -258,6 +257,8 @@ html,body {
 		overflow: auto;
 		position: relative;
 		border-bottom: 5px solid $green-300;
+	    border-left: 1px solid #e0e0e0;
+    	border-right: 1px solid #e0e0e0;
 		box-shadow: 0px 3px 6px #00000021;
 		border-radius: 0px 0px 5px 5px;
 		display: flex;
@@ -272,23 +273,21 @@ html,body {
 			flex: 1 1 auto;
 		}
 		.blade-title {
-			font: 500 17px/24px 'Open Sans', sans-serif;
-			letter-spacing: 0.010rem;
+			font: 500 16px/20px 'Open Sans',sans-serif;
+			letter-spacing: 0;
 			border-bottom: 2px solid $orange-100;
-			color: $blue-400;
-			text-indent: .3rem;
+			color: $blue-500;
+			padding-left: .3rem;
 			a {
 				&:hover {
 					text-decoration: none;
 				}
-				& span {
+				.green-arrow {
 					height: 18px;
-				    position: relative;
-				    top: -.2rem;
+					vertical-align: text-bottom;
+					position: relative;
+    				top: -.1rem;
 				}
-			}
-			.green-arrow {
-				vertical-align: text-bottom;
 			}
 		}
 		.blade-text {
@@ -340,6 +339,7 @@ html,body {
 	}
 	.title-bar {
 		background: #356595;
+			/* background: #77633c; */
 		color: #fff;
 		padding: 0.8rem;
 		border-radius: 6px;
@@ -362,6 +362,7 @@ html,body {
 	.section-one {
 		border-top: 3px solid $blue-700;
 		padding-top: 3px;
+		padding-bottom: 1rem;
 		& > img {
 			background: #fff;
 			padding-bottom: 2px;
@@ -376,9 +377,13 @@ html,body {
 				background: $orange-500;
 			}
 			.header-search {
+				max-width:32rem;
+				max-height: 31px;
 				& > input, .search-btn {
 					background: #FAFAFA;
-					border-color: #749D62 !important;
+					border-color: $green-300 !important;
+					max-height:31px;
+					height:31px;
 				}
 			}
 		}
@@ -394,7 +399,7 @@ html,body {
 			}
 		}
 		.blade-top {
-			padding: 0.5rem 1.4rem;
+			padding: 0 1.4rem .5rem;
 			background: #fff;
 			.blade-title {
 				display: flex;
@@ -403,7 +408,7 @@ html,body {
 					/* flex: 1; */
 					font: 500 27px/36px 'EB Garamond',serif;
 					letter-spacing: 0.030rem;
-					color: $blue-400;
+					color: $blue-500;
 				}
 				& svg:last-child {
 					position:relative;
@@ -423,9 +428,11 @@ html,body {
 				justify-content: center;
 				align-items: center;
 				& > span {
-					font: italic 600 20px/28px 'EB Garamond',serif;
-					letter-spacing: 0.050rem;
-					color: $blue-400;
+					font: italic 600 23px/30px 'EB Garamond',serif;
+					letter-spacing: 0.08rem;
+					color: $blue-500;
+					position: relative;
+    				top: -0.15rem;
 				}
 				.header-search {
 					width: 65%;
@@ -435,18 +442,18 @@ html,body {
 	}
 	.blade-section {
 		margin-left: 4px;
-        padding: 0.5rem 0.8rem;
+        padding: .5rem 1.2rem 1.5rem;
     	margin-bottom: 2px;
 		&.green {
 			background: $green;
 			.title-span {
-				border-bottom: 2px solid $green;
+				border-bottom: 2px solid $green-100;
 			}
 		}
 		&.orange {
 			background: $orange-500;
 			.title-span {
-				border-bottom: 2px solid $orange-500;
+				border-bottom: 2px solid $orange-100;
 			}
 		}
 		.blade-section__title {
@@ -470,7 +477,7 @@ html,body {
 			}
 			.blade-section__body-content {
 				border-top: 1px solid $green;
-				padding: 0.5rem 1rem;
+				padding: 0.5rem 1.5rem;
 				overflow: auto;
 				.blade-section__body-content-title {
 					display: flex;
@@ -479,6 +486,7 @@ html,body {
 					.title-span {
 						padding-bottom: 0.3rem;
 						margin-left: 0.5rem;
+						width: 100%;
 					}
 				}
 				.blade-title__text {
@@ -499,7 +507,7 @@ html,body {
 				.blade-section__body-content-count {
 					border: 1px solid $green;
 					border-radius: 16px;
-					font-size: 10px;
+					font-size: 11px;
 					padding: 0rem 0.8rem;
 					font-style: italic;
 					color: $blue-200;
@@ -520,8 +528,11 @@ html,body {
 				width: 80%;
 				text-align: center;
 				font: italic 600 15px/18px 'Open Sans', sans-serif;
+				max-width: 18rem;
+    			height: 40px;
 				a {
 					color: #fff;
+					line-height: 30px;
 				}
 			}
 		}
@@ -603,7 +614,7 @@ html,body {
 				align-items: center;
 				font: 500 16px/20px 'Open Sans', sans-serif;
 				letter-spacing: 0.005rem;
-				color: $blue-400;
+				color: $blue-500;
 				svg {
 					flex: 0 0 auto;
 				}

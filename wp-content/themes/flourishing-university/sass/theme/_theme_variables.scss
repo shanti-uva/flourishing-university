@@ -23,6 +23,7 @@ $container-max-widths: (
 $primary: #356595;
 
 $green: #6c925b; // new
+$green-100: #BBC9B6;
 $green-200: #648B53; 
 $green-300: #BBC9B6;
 $green-400: #90BC7C;
@@ -60,7 +61,7 @@ $navbar-dark-color: #fff;
 
 // Mixins
 @mixin normal-text {
-	font: 400 15px/20px lato, sans-serif;
+	font: 400 15px/21px lato, sans-serif;
 	color: $grey-800;
 }
 
