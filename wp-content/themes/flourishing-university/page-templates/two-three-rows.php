@@ -20,8 +20,9 @@ get_header();
 				<div class='row'>
 					<div class='col-sm-12 mb-3'>
 						<div class='title-bar my-2'>
+							<div class="title-bar-deco">
 							<div class='row align-items-center'>
-								<div class='col-sm-12 col-md-5 sideOne'>
+								<div class='col-sm-12 col-lg-6 sideOne'>
 									<div class='row align-items-center'>
 										<div class='col-sm-2'>
 											<?php echo load_inline_svg('icon-community-white.svg'); ?>
@@ -31,12 +32,13 @@ get_header();
 										</div>
 									</div>
 								</div>
-								<div class='col-sm-12 col-md-7 sideTwo'>
+								<div class='col-sm-12 col-lg-6 sideTwo'>
 									<span class='title-bar__text'>
 										Offering virtual contemplative sessions in real time, hosting special events with experts in contemplation and flourishing, publishing blogs, and documenting community networks.
 										<a href='#'>Read more...</a>
 									</span>
 								</div>
+							</div>
 							</div>
 						</div>
 					</div>

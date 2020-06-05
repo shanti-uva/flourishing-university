@@ -20,6 +20,7 @@ get_header();
 				<div class='row'>
 					<div class='col-sm-12'>
 						<div class='title-bar my-2'>
+							<div class="title-bar-deco">
 							<div class='row align-items-center'>
 								<div class='col-sm-12 col-md-5 sideOne'>
 									<div class='row align-items-center'>
@@ -38,6 +39,7 @@ get_header();
 									</span>
 								</div>
 							</div>
+						</div>
 						</div>
 					</div>
 				</div>
@@ -219,7 +221,7 @@ get_header();
 										<div class='blade-top__search my-2'>
 											<span class='mr-2'>Search</span>
 											<div class="input-group flex-nowrap header-search mr-2">
-												<input type="search" class="form-control py-2 border-right-0" placeholder="Contemplative Practices..." aria-label="Search" aria-describedby="addon-wrapping">
+												<input type="search" class="form-control py-2 border-right-0" placeholder="Contemplative Exercises..." aria-label="Search" aria-describedby="addon-wrapping">
 												<span class="input-group-append">
 													<button class="btn border-left-0 border search-btn" type="button">
 														<i class="fa fa-search text-black-50"></i>

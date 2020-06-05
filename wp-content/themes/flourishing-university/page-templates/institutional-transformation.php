@@ -18,8 +18,9 @@ get_header();
 		<div class='row'>
 			<div class='col-sm-12 col-lg-8 content pb-5'>
 				<div class='row'>
-					<div class='col-sm-12 mb-3'>
+					<div class='col-sm-12'>
 						<div class='title-bar my-2'>
+							<div class="title-bar-deco">
 							<div class='row align-items-center'>
 								<div class='col-sm-12 col-md-5 sideOne'>
 									<div class='row align-items-center'>
@@ -36,6 +37,7 @@ get_header();
 										A Guide to Institutional Transformation
 									</span>
 								</div>
+							</div>
 							</div>
 						</div>
 					</div>
