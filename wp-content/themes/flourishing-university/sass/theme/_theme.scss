@@ -382,7 +382,7 @@ html,body {
 				background: $green;
 			}
 			&.orange-bg {
-				background: $orange-500;
+				background: $orange-100;
 			}
 			.header-search {
 				max-width:32rem;
@@ -459,7 +459,7 @@ html,body {
 			}
 		}
 		&.orange {
-			background: $orange-500;
+			background: $orange-100;
 			.title-span {
 				border-bottom: 2px solid $orange-100;
 			}
@@ -574,11 +574,11 @@ html,body {
 			}
 		}
 		&.orange-bg {
-			background: $orange-500;
+			background: $orange-100;
 			.featured-body {
-				border: 1px solid $orange-500;
+				border: 1px solid $orange-100;
 				.featured-body__item-text-title {
-					border-bottom: 2px solid $orange-500;
+					border-bottom: 2px solid $orange-100;
 				}
 			}
 		}
@@ -652,7 +652,7 @@ html,body {
 		font: italic 400 12px/12px 'Open Sans', sans-serif;
 	}
 	.badge-orange {
-		background-color: $orange-500;
+		background-color: $orange-100;
 		color: #fff;
 		font: italic 400 12px/12px 'Open Sans', sans-serif;
 	}
@@ -676,7 +676,7 @@ html,body {
 			background: $green;
 		}
 		&.orange {
-			background: $orange-500;
+			background: $orange-100;
 		}
 		.section-body__title {
 			color: #fff;
@@ -692,7 +692,7 @@ html,body {
 				border-bottom-color: $green;
 			}
 			&.orange {
-				border-bottom-color: $orange-500;
+				border-bottom-color: $orange-100;
 			}
 		}
 		.white-line {
@@ -720,7 +720,7 @@ html,body {
 				border-bottom: 2px solid $green;
 			}
 			&.orange {
-				border-bottom: 2px solid $orange-500;
+				border-bottom: 2px solid $orange-100;
 			}
 			&.orange-lite {
 				border-bottom: 1px solid $orange-200;
@@ -747,7 +747,7 @@ html,body {
 					border-left-color: $green;
 				}
 				&.orange {
-					border-left-color: $orange-500;
+					border-left-color: $orange-100;
 				}
 				.upper {
 					text-transform: uppercase;
@@ -788,9 +788,9 @@ html,body {
 				.c-card__top-header-title {
 					flex: 1;
 					border-bottom: 2px solid $green-400;
-					color: $blue-500;
+					color: $blue-200;
 					& > span {
-						font: 400 25px/30px 'EB Garamond',serif;
+						font: 600 25px/32px 'EB Garamond',serif;
 						letter-spacing: 0.060rem;
 					}
 					a {
@@ -799,11 +799,11 @@ html,body {
 						position: absolute;
 						top: 5px;
 						right: 8px;
-						font: italic 600 14px/16px 'Open Sans', sans-serif;
+						font: italic 600 15px/15px 'Open Sans', sans-serif;
 						letter-spacing: 0.05rem;
 						color: $blue-500;
 						svg {
-							margin-left: 0.25rem;
+							margin-left: 0.5rem;
 						}
 					}
 				}
@@ -865,7 +865,7 @@ html,body {
 				flex: 1;
 			}
 			.c-card__btm-img {
-				border: 4px solid $orange-500;
+				border: 4px solid $orange-100;
     		padding: 0.125rem;
 				border-radius: 0 14px 0 0;
 				img {

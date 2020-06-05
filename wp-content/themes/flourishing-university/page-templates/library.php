@@ -71,7 +71,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Collection</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Contemplative Traditions</span>
@@ -113,7 +113,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Practice</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>A Practice of Fellowship</span>
@@ -155,7 +155,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Exercise</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Contemplative Inquiry Exercises</span>
@@ -171,11 +171,7 @@ get_header();
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
 				</section><!-- section.row.equal.my-3 -->
-				<div class='row divider'>
-					<div class='col-sm-12'>
-						<hr>
-					</div>
-				</div>
+
 				<section class='row equal my-3'>
 					<div class='col-sm-12 col-lg-4'>
 						<div class='curated-card'>
@@ -204,7 +200,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Guide</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Contemplation and Ecology</span>
@@ -246,7 +242,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Brief</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Compassion Science</span>
@@ -288,7 +284,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Syllabi</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Contemplative Approaches to Communication</span>
@@ -304,11 +300,7 @@ get_header();
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
 				</section><!-- section.row.equal.my-3 -->
-				<div class='row divider'>
-					<div class='col-sm-12'>
-						<hr>
-					</div>
-				</div>
+
 				<section class='row equal my-3'>
 					<div class='col-sm-12 col-lg-4'>
 						<div class='curated-card'>
@@ -337,7 +329,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Text</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Generation Phase Practice</span>
@@ -379,7 +371,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Audio-Video</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Deep Breathing</span>
@@ -421,7 +413,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Source</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Technology and Attention</span>
@@ -437,11 +429,7 @@ get_header();
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
 				</section><!-- section.row.equal.my-3 -->
-				<div class='row divider'>
-					<div class='col-sm-12'>
-						<hr>
-					</div>
-				</div>
+
 				<section class='row equal my-3'>
 					<div class='col-sm-12 col-lg-4'>
 						<div class='curated-card'>
@@ -470,7 +458,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Image</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Whirling Dervish</span>
@@ -512,7 +500,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Visual</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Impact of Mindfulness on K-12 Teacher's Mental Health</span>
@@ -554,7 +542,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Place</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Contemplative Sciences Center</span>
@@ -570,11 +558,7 @@ get_header();
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
 				</section><!-- section.row.equal.my-3 -->
-				<div class='row divider'>
-					<div class='col-sm-12'>
-						<hr>
-					</div>
-				</div>
+
 				<section class='row equal my-3'>
 					<div class='col-sm-12 col-lg-4'>
 						<div class='curated-card'>
@@ -603,7 +587,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Subject</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Tibetan Contemplative Traditions</span>
@@ -645,7 +629,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Term</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Meta-cognition</span>
@@ -687,7 +671,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Blog</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Kids Learning in Nature</span>
@@ -703,11 +687,7 @@ get_header();
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
 				</section><!-- section.row.equal.my-3 -->
-				<div class='row divider'>
-					<div class='col-sm-12'>
-						<hr>
-					</div>
-				</div>
+
 				<section class='row equal my-3'>
 					<div class='col-sm-12 col-lg-4'>
 						<div class='curated-card'>
@@ -736,7 +716,7 @@ get_header();
 									</div>
 								</div>
 							</div>
-							<div class='curated-card__btm p-3 pt-3 mt-3'>
+							<div class='curated-card__btm p-3 pt-3 mt-4'>
 								<div class='c-card__btm-feat'>Featured Event</div>
 								<div class='c-card__btm-header pb-1 pl-1'>
 									<span class='mr-2'>Tuesday Morning Mysore</span>
