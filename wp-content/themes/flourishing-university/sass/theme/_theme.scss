@@ -108,11 +108,10 @@ html,body {
 	}
 	.sideTwo {
 		font: italic 500 12px/17px 'Open Sans', sans-serif;
-		letter-spacing: 0.025rem;
+		/* buggy - letter-spacing: 0.025rem; */
 		border-left: 1px solid #ffffff8c;
 	}
 }
-
 
 
 // footer
@@ -459,7 +458,7 @@ html,body {
 			}
 		}
 		&.orange {
-			background: $orange-100;
+			background-color: $orange-100;
 			.title-span {
 				border-bottom: 2px solid $orange-100;
 			}
@@ -697,8 +696,8 @@ html,body {
 		}
 		.white-line {
 			height: 1px;
-    	display: block;
-    	background: #fff;
+    		display: block;
+    		background: #fff;
 		}
 	}
 	.row-card {
@@ -852,6 +851,7 @@ html,body {
 				transform: translateX(-50%);
 				min-width: 150px;
 				text-align: center;
+				white-space:nowrap;
 			}
 			.c-card__btm-header {
 				font: 600 15px/21px 'Open Sans', sans-serif;
