@@ -389,8 +389,9 @@ html,body {
 				& > input, .search-btn {
 					background: #FAFAFA;
 					border-color: $green-300 !important;
-					max-height:31px;
-					height:31px;
+					max-height:30px;
+					height:30px;
+					font-size: 1.12em;
 				}
 			}
 		}
@@ -406,8 +407,10 @@ html,body {
 			}
 		}
 		.blade-top {
-			padding: 0 1.4rem .5rem;
+			padding: 0 1.4rem 4rem;
 			background: #fff;
+			min-height: 200px;
+    		position: relative;
 			.blade-title {
 				display: flex;
 				align-items: center;
@@ -434,6 +437,9 @@ html,body {
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				position: absolute;
+    			bottom: 0.5rem;
+				width: 90%;
 				& > span {
 					font: italic 600 23px/30px 'EB Garamond',serif;
 					letter-spacing: 0.08rem;
@@ -486,6 +492,7 @@ html,body {
 				border-top: 1px solid $green;
 				padding: 0.5rem 1.5rem;
 				overflow: auto;
+				min-height:165px;
 				.blade-section__body-content-title {
 					display: flex;
     				align-items: center;
@@ -497,9 +504,9 @@ html,body {
 					}
 				}
 				.blade-title__text {
-					font: 500 16px/20px 'Open Sans', sans-serif;
+					font: 600 16px/20px 'Open Sans', sans-serif;
 					letter-spacing: 0.005rem;
-					color: $blue-500;
+					color: $blue-200;
 				}
 				@include media-breakpoint-up(xxl) {
 					.blade-title__text {
@@ -554,7 +561,7 @@ html,body {
 			display: flex;
 			align-items: center;
 			.featured-top__item-title {
-				font: 400 27px/36px 'EB Garamond',serif;
+				font: 400 25px/36px 'EB Garamond',serif;
 				letter-spacing: 0.050rem;
 			}
 		}

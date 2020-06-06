@@ -43,7 +43,7 @@ get_header();
 						</div>
 					</div>
 				</div>
-				<section class='row equal my-3'>
+				<section class='row equal my-1'>
 					<div class='col-sm-12 col-lg-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
