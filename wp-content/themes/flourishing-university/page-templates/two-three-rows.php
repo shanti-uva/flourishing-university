@@ -56,11 +56,11 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body green'>
-							<div class='section-body__title p-2'>Offering contemplative instruction and community online.</div>
+							<div class='section-body__title p-2'>√ – Offering contemplative instruction and community online.</div>
 							<div class='section-body__content green'>
 								<div class='row equal'>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Monday Mindfulness Morning</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -86,7 +86,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Tuesday Morning Mysore</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -112,7 +112,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Contemplative Explorations</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -157,12 +157,12 @@ get_header();
 						</div>
 						<div class='section-body orange'>
 							<div class='section-body__title p-2'>
-								Opportunities to interact with leading scholars, teachers, and practitioners of contemplation, and/or flourishing and education.
+								√ – Opportunities to interact with leading scholars, teachers, and practitioners of contemplation, and/or flourishing and education.
 							</div>
 							<div class='section-body__content orange'>
 								<div class='row equal'>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Questions on the Great Perfection with David Germano</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -188,7 +188,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Contemplative Pedagogy Seminar with Karolyn Kinane</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -214,7 +214,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Discussing Ashtanga Yoga with John Bultman</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -256,11 +256,11 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body green'>
-							<div class='section-body__title p-2'>Periodic reflections on specific subjects by various scholars, teachers, and practitioners.</div>
+							<div class='section-body__title p-2'>√ – Periodic reflections on specific subjects by various scholars, teachers, and practitioners.</div>
 							<div class='section-body__content green'>
 								<div class='row equal'>
 									<div class='col-sm-12 col-lg-6'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Reflections on the Great Perfection (Dzokchen)</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -282,7 +282,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-6'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Thoughts on Human Flourishing and Education</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -326,7 +326,7 @@ get_header();
 							<div class='section-body__content orange'>
 								<div class='row'>
 									<div class='col-sm-12 col-lg-6'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>The Flourishing Academic Network</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -342,7 +342,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-6 flex-column'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Wellbeing and Social Innovation Educational Network</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -356,7 +356,7 @@ get_header();
 												<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'wellbeing-social-innovation@2x.jpg'; ?>' alt='Wellbeing and Social Innovation Educational Network'>
 											</div>
 										</div>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>The Great Perfection Initiative</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>

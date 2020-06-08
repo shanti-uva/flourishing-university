@@ -32,15 +32,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
-		<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary navbar-expand-xlg" aria-labelledby="main-nav-label">
+		<nav id="main-nav" class="navbar navbar-expand-xl navbar-dark bg-primary" aria-labelledby="main-nav-label">
 
 			<h2 id="main-nav-label" class="sr-only">
 				<?php esc_html_e( 'Main Navigation', 'understrap' ); ?>
 			</h2>
 
-		<?php if ( 'container' === $container ) : ?>
-			<div class="container-xxl">
-		<?php endif; ?>
+			<?php if ( 'container' === $container ) : ?>
+				<div class="container-xxl">
+			<?php endif; ?>
 
 					<!-- Your site title as branding in the menu -->
 					<?php if ( ! has_custom_logo() ) { ?>
@@ -54,10 +54,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						the_custom_logo();
 					} ?><!-- end custom logo -->
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<!-- The WordPress Menu goes here -->
 				<?php wp_nav_menu(
 					array(
@@ -71,7 +68,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
 					)
 				); ?>
-
+				</div>
 				<!-- Search Form -->
 				<div class="input-group flex-nowrap header-search">
 					<input type="search" class="form-control py-2 border-right-0" placeholder="Search..." aria-label="Search" aria-describedby="addon-wrapping">
@@ -79,7 +76,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						<button class="btn border-left-0 border search-btn" type="button">
 							<i class="fa fa-search text-black-50"></i>
 						</button>
-          </span>
+          			</span>
 				</div>
 
 				<!-- Other links -->
@@ -90,10 +87,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<a href='#'>
 						<?php echo load_inline_svg('user.svg'); ?>
 					</a>
-					<a href='#'>
-						<?php echo load_inline_svg('hamburger.svg'); ?>
-					</a>
 				</div>
+					
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+				<span class="navbar-toggler-icon"></span>
+				</button>
 
 			<?php if ( 'container' === $container ) : ?>
 			</div><!-- .container -->

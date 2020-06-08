@@ -44,7 +44,7 @@ get_header();
 					</div>
 				</div>
 				<section class='row equal my-1'>
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -86,7 +86,7 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -128,7 +128,7 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -170,10 +170,8 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-				</section><!-- section.row.equal.my-3 -->
 
-				<section class='row equal my-3'>
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -215,7 +213,7 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -257,7 +255,7 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -299,10 +297,8 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-				</section><!-- section.row.equal.my-3 -->
 
-				<section class='row equal my-3'>
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -344,7 +340,7 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -386,7 +382,7 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -428,10 +424,8 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-				</section><!-- section.row.equal.my-3 -->
 
-				<section class='row equal my-3'>
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -473,7 +467,7 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -515,7 +509,7 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -557,10 +551,8 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-				</section><!-- section.row.equal.my-3 -->
 
-				<section class='row equal my-3'>
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -602,7 +594,7 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -644,7 +636,7 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>
@@ -686,10 +678,8 @@ get_header();
 							</div>
 						</div>
 					</div><!-- .col-sm-12.col-lg-4 -->
-				</section><!-- section.row.equal.my-3 -->
 
-				<section class='row equal my-3'>
-					<div class='col-sm-12 col-lg-4'>
+					<div class='col-sm-12 col-lg-6 col-xl-4'>
 						<div class='curated-card'>
 							<div class='curated-card__top'>
 								<div class='c-card__top-header'>

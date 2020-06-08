@@ -22,6 +22,15 @@ html,body {
 			padding-top:.75rem;
 			padding-left: .8rem;
 			padding-right: .8rem;
+			white-space: nowrap;
+		}
+		a.nav-link:hover{
+			background: #ffffff14;
+    		color: #fff;
+		}
+		a.nav-link:focus{
+			background: #205482;
+    		color: #fff;
 		}
 		&.current-menu-item {
 			background: $grey-300;
@@ -32,6 +41,8 @@ html,body {
 		}
 	}
 }
+
+
 
 .navbar-brand {
 	display: flex;
@@ -47,7 +58,7 @@ html,body {
 	.logo-text {
 		font: 100 16px/18px 'Open Sans', sans-serif;
 		letter-spacing: 0.85px;
-		text-indent: 1rem;
+		text-indent: 0.6rem;
 	}
 }
 
@@ -70,11 +81,12 @@ html,body {
 		    position: relative;
 		    bottom: .35rem;
 		    left: 0;
-		    color: #999 !important;
+		    color: #ccc !important;
 		}
 	}
 }
 .top-links {
+	white-space:nowrap;
 	& > a {
 		margin-left: 0.6rem;
 		display: inline-block;
@@ -82,6 +94,9 @@ html,body {
 		&:first-child {
 			margin-left: 0.8rem;
 		}
+	}
+	&.navbar-toggler{
+		margin-left:1rem;
 	}
 }
 
@@ -253,7 +268,7 @@ html,body {
 
 .section-region {
 	.region-title {
-		border-bottom: 3px solid $orange-100;
+		border-bottom: 3px solid $orange-200;
 		padding-left: 1.5rem;
 		margin-bottom: 1rem;
 		h2 {
@@ -302,9 +317,9 @@ html,body {
 			flex: 1 1 auto;
 		}
 		.blade-title {
-			font: 500 16px/20px 'Open Sans',sans-serif;
+			font: 600 16px/20px 'Open Sans',sans-serif;
 			letter-spacing: 0;
-			border-bottom: 2px solid $orange-100;
+			border-bottom: 2px solid $orange-200;
 			color: $blue-500;
 			padding-left: .3rem;
 			a {
@@ -629,6 +644,7 @@ html,body {
 				font: 500 16px/20px 'Open Sans', sans-serif;
 				letter-spacing: 0.005rem;
 				color: $blue-500;
+				text-indent:0.5rem;
 				svg {
 					flex: 0 0 auto;
 				}
@@ -651,6 +667,13 @@ html,body {
 		background: $grey-400;
 		border-left: 3px solid $orange-300;
 		min-height: calc(100vh - 84px - 74px);
+	}
+	.badge-pill {
+		padding: .4rem 1.2rem .35rem;
+		.fa {
+			margin-right: 0.3rem;
+			font-size:.9em;
+		}
 	}
 	.badge-green {
 		background-color: $green-200;
@@ -690,10 +713,12 @@ html,body {
 			letter-spacing: 0.050rem;
 			border-bottom: 1px solid #fff;
 			margin-bottom: 2px;
+			text-indent: .5rem;
 		}
 		.section-body__content {
 			background: #fff;
 			border-bottom: 3px solid;
+			padding: 0 1.5rem;
 			&.green {
 				border-bottom-color: $green;
 			}
@@ -778,11 +803,12 @@ html,body {
 		position: relative;
 		border: 2px solid $green-300;
 		border-left: 4px solid $green;
-    border-radius: 9px 15px 0px 9px;
+    	border-radius: 9px 15px 0px 9px;
 		padding: 0.3rem;
 		background: #fff;
 		display: flex;
-    flex-direction: column;
+    	flex-direction: column;
+    	margin-top: 1.5rem;
 		.curated-card__top {
 			padding: 1rem 0.5rem 0.25rem;
 			flex: 1 1 40%;
