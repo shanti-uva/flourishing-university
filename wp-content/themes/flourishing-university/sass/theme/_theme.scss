@@ -6,22 +6,24 @@ html,body {
 // Header Styles
 #main-nav {
 	height: 50px;
+	padding: 0 .5rem;
 	border-top: 2px solid #fff;
     border-bottom: 1px solid #eee;
 }
 
 .navbar-nav {
 	font: 300 11px/28px 'Open Sans', sans-serif;
-	letter-spacing: 0.75px;
+	letter-spacing: 0.25px;
 	margin: 0 auto !important;
 	@include media-breakpoint-up(xxl){
 		font-size:12px;
+		letter-spacing: 0.060rem;
 	}
 	.menu-item {
 		a.nav-link{
 			padding-top:.75rem;
-			padding-left: .8rem;
-			padding-right: .8rem;
+			padding-left: 1.1rem;
+			padding-right: 1.1rem;
 			white-space: nowrap;
 		}
 		a.nav-link:hover{
@@ -37,6 +39,9 @@ html,body {
 			a.nav-link {
 				color: $blue-500;
 				font-weight:600;
+				letter-spacing: 0.050rem;
+				padding-left: .9rem;
+				padding-right: .9rem;
 			}
 		}
 	}
@@ -56,17 +61,23 @@ html,body {
 		top: .1rem;
 	}
 	.logo-text {
-		font: 100 16px/18px 'Open Sans', sans-serif;
+		font: 400 15px/18px 'Open Sans', sans-serif;
 		letter-spacing: 0.85px;
 		text-indent: 0.6rem;
+		position:relative;
+		top:0.1rem;
+		@include media-breakpoint-up(lg){
+			font-size:17px;
+			letter-spacing: 0.060rem;
+		}
 	}
 }
 
 .header-search {
 	max-width: 220px;
-	max-height: 25px;
+	max-height: 28px;
 	& > * {
-		max-height: 25px;
+		max-height: 28px;
 	}
 	input {
 		font-size: 1rem;
@@ -79,7 +90,7 @@ html,body {
 		.fa{
 			font-size: 1.15em;
 		    position: relative;
-		    bottom: .35rem;
+		    bottom: .25rem;
 		    left: 0;
 		    color: #ccc !important;
 		}
@@ -400,7 +411,7 @@ html,body {
 			}
 			.header-search {
 				max-width:32rem;
-				max-height: 31px;
+				max-height: 30px;
 				& > input, .search-btn {
 					background: #FAFAFA;
 					border-color: $green-300 !important;
