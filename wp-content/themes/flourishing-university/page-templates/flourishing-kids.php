@@ -61,7 +61,7 @@ get_header();
 							<div class='section-body__content green'>
 								<div class='row equal'>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Mindfulness-Based Programs for PreK-12 Stu…</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -77,7 +77,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Teaching Mindfulness in PreK-12 Education</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -93,7 +93,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Body Scan</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -132,7 +132,7 @@ get_header();
 							<div class='section-body__content orange'>
 								<div class='row equal'>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Social and Emotional Learning in PreK-12</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -148,7 +148,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Letting Go Breath</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -164,7 +164,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Kind Mind</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -203,7 +203,7 @@ get_header();
 							<div class='section-body__content green'>
 								<div class='row equal'>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Butterfly</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -219,7 +219,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Physical Health and Well-being for K-12</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -235,7 +235,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Plank</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -274,7 +274,7 @@ get_header();
 							<div class='section-body__content orange'>
 								<div class='row equal'>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Mindfulness and Evidence-Based Teacher…</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -290,7 +290,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>PreK-12 Teacher Well-being in the Class…</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -306,7 +306,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>PreK-12 Teacher Well-being</span>
 												<?php echo load_inline_svg('exercises-orange-arrow.svg'); ?>
@@ -345,7 +345,7 @@ get_header();
 							<div class='section-body__content green'>
 								<div class='row equal'>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Breath of Joy</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -361,7 +361,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Anchor Breath</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
@@ -377,7 +377,7 @@ get_header();
 										</div>
 									</div>
 									<div class='col-sm-12 col-lg-4'>
-										<div class='row-card px-2 py-3'>
+										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Half Diamond</span>
 												<?php echo load_inline_svg('practices-green-arrow.svg'); ?>
