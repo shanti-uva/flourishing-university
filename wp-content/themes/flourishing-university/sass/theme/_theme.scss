@@ -698,6 +698,8 @@ html,body {
 	}
 	.section-title-bar {
 		display: flex;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
 		align-items: center;
 		justify-content: space-between;
 		.section-title-bar__left {
