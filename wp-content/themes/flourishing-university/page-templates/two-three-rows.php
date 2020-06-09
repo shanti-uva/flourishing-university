@@ -19,7 +19,7 @@ get_header();
 			<div class='col-sm-12 col-md-8 col-lg-9 content pb-5'>
 				<div class='row'>
 					<div class='col-sm-12'>
-						<div class='title-bar my-2'>
+						<div class='title-bar my-2 mb-3'>
 							<div class="title-bar-deco">
 							<div class='row align-items-center'>
 								<div class='col-sm-12 col-lg-6 sideOne'>
@@ -45,7 +45,7 @@ get_header();
 				</div>
 				<section class='row'>
 					<div class='col-sm-12 mb-3'>
-						<div class='section-title-bar my-2'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-community-top.svg'); ?>
 								<span class='ml-2'>Contemplative Sessions</span>
@@ -144,8 +144,8 @@ get_header();
 					</div><!-- .col-sm-12 -->
 				</section><!-- section.row -->
 				<section class='row'>
-					<div class='col-sm-12'>
-						<div class='section-title-bar my-2'>
+					<div class='col-sm-12 mb-3'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-community-middle-orange.svg'); ?>
 								<span class='ml-2'>Conversations with Experts</span>
@@ -247,10 +247,11 @@ get_header();
 				</section><!-- section.row -->
 				<section class='row'>
 					<div class='col-sm-12 mb-3'>
-						<div class='section-title-bar my-2'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-blogs-green.svg'); ?>
 								<span class='ml-2'>Blogs on Contemplation and Flourishing</span>
+								<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 							</div>
 							<div class='section-title-bar__right'>
 							</div>
@@ -311,10 +312,11 @@ get_header();
 				</section><!-- section.row -->
 				<section class='row'>
 					<div class='col-sm-12'>
-						<div class='section-title-bar my-2'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-community-networks-orange.svg'); ?>
 								<span class='ml-2'>Community Networks</span>
+								<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 							</div>
 							<div class='section-title-bar__right'>
 							</div>

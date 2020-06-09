@@ -19,7 +19,7 @@ get_header();
 			<div class='col-sm-12 col-md-8 col-lg-9 content pb-5'>
 				<div class='row'>
 					<div class='col-sm-12'>
-						<div class='title-bar my-2'>
+						<div class='title-bar my-2 mb-3'>
 							<div class="title-bar-deco">
 							<div class='row align-items-center'>
 								<div class='col-sm-12 col-md-5 sideOne'>
@@ -45,13 +45,14 @@ get_header();
 				</div>
 				<section class='row'>
 					<div class='col-sm-12 mb-3'>
-						<div class='section-title-bar my-2'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-community-top.svg'); ?>
 								<span class='ml-2'>Mindfulness</span>
+								<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 							</div>
 							<div class='section-title-bar__right'>
-								<a href='#' class='badge badge-pill badge-green'><i class="fa fa-play"></i> Explore!</a>
+								
 							</div>
 						</div>
 						<div class='section-body green'>
@@ -115,14 +116,15 @@ get_header();
 					</div><!-- .col-sm-12 -->
 				</section><!-- section.row -->
 				<section class='row'>
-					<div class='col-sm-12'>
-						<div class='section-title-bar my-2'>
+					<div class='col-sm-12 mb-3'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-socialemotional-wellbeing-orange.svg'); ?>
 								<span class='ml-2'>Social and Emotional Learning</span>
+								<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 							</div>
 							<div class='section-title-bar__right'>
-								<a href='#' class='badge badge-pill badge-orange'><i class="fa fa-play"></i> Explore!</a>
+								
 							</div>
 						</div>
 						<div class='section-body orange'>
@@ -187,13 +189,14 @@ get_header();
 				</section><!-- section.row -->
 				<section class='row'>
 					<div class='col-sm-12 mb-3'>
-						<div class='section-title-bar my-2'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-k12-physical-exercises-green.svg'); ?>
 								<span class='ml-2'>Physical Health and Well-being</span>
+								<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 							</div>
 							<div class='section-title-bar__right'>
-								<a href='#' class='badge badge-pill badge-green'><i class="fa fa-play"></i> Explore!</a>
+								
 							</div>
 						</div>
 						<div class='section-body green'>
@@ -257,14 +260,15 @@ get_header();
 					</div><!-- .col-sm-12 -->
 				</section><!-- section.row -->
 				<section class='row'>
-					<div class='col-sm-12'>
-						<div class='section-title-bar my-2'>
+					<div class='col-sm-12 mb-3'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-teacher-wellbeing-orange.svg'); ?>
 								<span class='ml-2'>Teacher Well-being in the Classroom</span>
+								<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 							</div>
 							<div class='section-title-bar__right'>
-								<a href='#' class='badge badge-pill badge-orange'><i class="fa fa-play"></i> Explore!</a>
+
 							</div>
 						</div>
 						<div class='section-body orange'>
@@ -329,13 +333,14 @@ get_header();
 				</section><!-- section.row -->
 				<section class='row'>
 					<div class='col-sm-12 mb-3'>
-						<div class='section-title-bar my-2'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-k12exercises2.svg'); ?>
 								<span class='ml-2'>K-12 Practices and Exercises</span>
+								<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 							</div>
 							<div class='section-title-bar__right'>
-								<a href='#' class='badge badge-pill badge-green'><i class="fa fa-play"></i> Explore!</a>
+								
 							</div>
 						</div>
 						<div class='section-body green'>

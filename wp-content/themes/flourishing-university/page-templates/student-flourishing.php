@@ -19,10 +19,10 @@ get_header();
 			<div class='col-sm-12 col-md-8 col-lg-9 content pb-5'>
 				<div class='row'>
 					<div class='col-sm-12'>
-						<div class='title-bar my-2'>
+						<div class='title-bar my-2 mb-3'>
 							<div class="title-bar-deco">
 							<div class='row align-items-center'>
-								<div class='col-sm-12 col-md-5 sideOne'>
+								<div class='col-sm-12 col-md-6 sideOne'>
 									<div class='row align-items-center'>
 										<div class='col-sm-2'>
 											<?php echo load_inline_svg('icon-college-white.svg'); ?>
@@ -32,7 +32,7 @@ get_header();
 										</div>
 									</div>
 								</div>
-								<div class='col-sm-12 col-md-7 sideTwo'>
+								<div class='col-sm-12 col-md-6 sideTwo'>
 									<span class='title-bar__text'>
 										Exploring theory and practice for students, teachers, and institutions to facilitate the flourishing of students through dynamic learning, contemplation, community, and self-care.
 										<a href='#'>Read more...</a>
@@ -45,13 +45,14 @@ get_header();
 				</div>
 				<section class='row'>
 					<div class='col-sm-12 mb-3'>
-						<div class='section-title-bar my-2'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-students-green.svg'); ?>
 								<span class='ml-2'>Resources for Students</span>
+								<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 							</div>
 							<div class='section-title-bar__right'>
-								<a href='#' class='badge badge-pill badge-green'><i class="fa fa-play"></i> Explore!</a>
+								
 							</div>
 						</div>
 						<div class='section-body green'>
@@ -115,14 +116,15 @@ get_header();
 					</div><!-- .col-sm-12 -->
 				</section><!-- section.row -->
 				<section class='row'>
-					<div class='col-sm-12'>
-						<div class='section-title-bar my-2'>
+					<div class='col-sm-12 mb-3'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-teacher-orange.svg'); ?>
 								<span class='ml-2'>Resources for Instructors</span>
+								<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 							</div>
 							<div class='section-title-bar__right'>
-								<a href='#' class='badge badge-pill badge-orange'><i class="fa fa-play"></i> Explore!</a>
+								
 							</div>
 						</div>
 						<div class='section-body orange'>
@@ -187,13 +189,14 @@ get_header();
 				</section><!-- section.row -->
 				<section class='row'>
 					<div class='col-sm-12 mb-3'>
-						<div class='section-title-bar my-2'>
+						<div class='section-title-bar'>
 							<div class='section-title-bar__left'>
 								<?php echo load_inline_svg('icon-institution-green.svg'); ?>
 								<span class='ml-2'>Resources for Institutions</span>
+								<a href='#' class='badge badge-pill badge-blue'><i class="fa fa-play"></i> Explore!</a>
 							</div>
 							<div class='section-title-bar__right'>
-								<a href='#' class='badge badge-pill badge-green'><i class="fa fa-play"></i> Explore!</a>
+								
 							</div>
 						</div>
 						<div class='section-body green'>

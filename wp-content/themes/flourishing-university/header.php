@@ -69,29 +69,29 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				); ?>
 				</div>
-				<!-- Search Form -->
-				<div class="input-group flex-nowrap header-search">
-					<input type="search" class="form-control py-2 border-right-0" placeholder="Search..." aria-label="Search" aria-describedby="addon-wrapping">
-					<span class="input-group-append">
-						<button class="btn border-left-0 border search-btn" type="button">
-							<i class="fa fa-search text-black-50"></i>
-						</button>
-          			</span>
-				</div>
 
-				<!-- Other links -->
+				<!-- Utility links -->
 				<div class='top-links'>
+					<!-- Search Form -->
+					<div class="input-group flex-nowrap header-search">
+						<input type="search" class="form-control py-2 border-right-0" placeholder="Search..." aria-label="Search" aria-describedby="addon-wrapping">
+						<span class="input-group-append">
+							<button class="btn border-left-0 border search-btn" type="button">
+								<i class="fa fa-search text-black-50"></i>
+							</button>
+	          			</span>
+	          		</div>
 					<a href='#'>
 						<?php echo load_inline_svg('adv-search.svg'); ?>
 					</a>
 					<a href='#'>
 						<?php echo load_inline_svg('user.svg'); ?>
 					</a>
+					<!-- mobile button -->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+					<span class="navbar-toggler-icon"></span>
+					</button>
 				</div>
-					
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-				<span class="navbar-toggler-icon"></span>
-				</button>
 
 			<?php if ( 'container' === $container ) : ?>
 			</div><!-- .container -->

@@ -39,7 +39,7 @@ html,body {
 			a.nav-link {
 				color: $blue-500;
 				font-weight:600;
-				letter-spacing: 0.050rem;
+				/* letter-spacing: 0.050rem; */
 				padding-left: .9rem;
 				padding-right: .9rem;
 			}
@@ -47,7 +47,9 @@ html,body {
 	}
 }
 
-
+.navbar-dark .navbar-toggler {
+	border:none;
+}
 
 .navbar-brand {
 	display: flex;
@@ -76,6 +78,8 @@ html,body {
 .header-search {
 	max-width: 220px;
 	max-height: 28px;
+	float:left;
+	margin-top: .2rem;
 	& > * {
 		max-height: 28px;
 	}
@@ -90,7 +94,7 @@ html,body {
 		.fa{
 			font-size: 1.15em;
 		    position: relative;
-		    bottom: .25rem;
+		    bottom: .3rem;
 		    left: 0;
 		    color: #ccc !important;
 		}
@@ -123,8 +127,8 @@ html,body {
 		border-radius: 5px;
 	}
 	.sideOne {
-		font: 400 18px/24px 'EB Garamond',serif;
-		letter-spacing: 0.020rem;
+		font: 100 20px/24px 'EB Garamond',serif;
+		letter-spacing: 0.035rem;
 	}
 	@include media-breakpoint-up(xxl) {
 		.sideOne {
@@ -133,9 +137,9 @@ html,body {
 		}
 	}
 	.sideTwo {
-		font: italic 500 12px/17px 'Open Sans', sans-serif;
+		font: italic 400 12px/17px 'Open Sans', sans-serif;
 		/* buggy - letter-spacing: 0.025rem; */
-		border-left: 1px solid #ffffff8c;
+		border-left: 1px solid #eee;
 	}
 }
 
@@ -289,20 +293,6 @@ html,body {
 			vertical-align: middle;
 			display: inline;
 		}
-		.badge-blue {
-			background-color: $blue-100;
-			color: #fff;
-			font: italic 600 12px/15px 'Open Sans', sans-serif;
-		    padding:.2rem 1rem .25rem 1rem;
-		    border-radius: 10rem;
-		    letter-spacing: .075rem;
-		    position: relative;
-    		top: .1rem;
-		    & .fa{
-		    	font-size: .9em;
-    			margin-right: .2rem;
-		    }
-		}
 	}
 	.region-blades{
 		padding-left:1rem;
@@ -381,6 +371,22 @@ html,body {
 	border-top-right-radius:15px !important;
 }
 
+.badge-blue {
+	background-color: $blue-100;
+	color: #fff;
+	font: italic 600 12px/15px 'Open Sans', sans-serif;
+    padding:.2rem 1rem .25rem 1rem !important;
+    border-radius: 10rem;
+    letter-spacing: .075rem;
+    position: relative;
+	top: 0;
+	left:1.25rem;
+    & .fa{
+    	font-size: .9em;
+		margin-right: .2rem;
+    }
+}
+
 // Two-three-column template
 .two-three-column-wrapper {
 	background: $grey-300;
@@ -410,8 +416,10 @@ html,body {
 				background: $orange-100;
 			}
 			.header-search {
-				max-width:32rem;
+				max-width: 32rem;
 				max-height: 30px;
+				margin-top: 0;
+				float:none;
 				& > input, .search-btn {
 					background: #FAFAFA;
 					border-color: $green-300 !important;
@@ -435,14 +443,14 @@ html,body {
 		.blade-top {
 			padding: 0 1.4rem 4rem;
 			background: #fff;
-			min-height: 200px;
+			min-height: 190px;
     		position: relative;
 			.blade-title {
 				display: flex;
 				align-items: center;
 				.blade-title__text {
 					/* flex: 1; */
-					font: 500 27px/36px 'EB Garamond',serif;
+					font: 400 28px/36px 'EB Garamond',serif;
 					letter-spacing: 0.030rem;
 					color: $blue-500;
 				}
@@ -471,7 +479,7 @@ html,body {
 					letter-spacing: 0.08rem;
 					color: $blue-500;
 					position: relative;
-    				top: -0.15rem;
+    				top: 0;
 				}
 				.header-search {
 					width: 65%;
@@ -530,7 +538,7 @@ html,body {
 					}
 				}
 				.blade-title__text {
-					font: 600 16px/20px 'Open Sans', sans-serif;
+					font: 400 16px/20px 'Open Sans', sans-serif;
 					letter-spacing: 0.005rem;
 					color: $blue-200;
 				}
@@ -655,7 +663,7 @@ html,body {
 				font: 500 16px/20px 'Open Sans', sans-serif;
 				letter-spacing: 0.005rem;
 				color: $blue-500;
-				text-indent:0.5rem;
+				padding-left: .2rem;
 				svg {
 					flex: 0 0 auto;
 				}
@@ -667,6 +675,20 @@ html,body {
 		}
 	}
 }
+
+.page-template-encyclopedia {
+	.two-three-column-wrapper {
+		.section-one {
+			.blade-top {
+				min-height: 160px;
+				.blade-title__text {
+					font-size:25px;
+				}
+			}
+		}
+	}	
+}
+
 
 // Community template
 .two-three-rows-wrapper {
@@ -680,7 +702,7 @@ html,body {
 		min-height: calc(100vh - 84px - 74px);
 	}
 	.badge-pill {
-		padding: .4rem 1.2rem .35rem;
+		padding: .35rem 1.3rem .3rem;
 		.fa {
 			margin-right: 0.3rem;
 			font-size:.9em;
@@ -689,7 +711,7 @@ html,body {
 	.badge-green {
 		background-color: $green-200;
 		color: #fff;
-		font: italic 400 12px/12px 'Open Sans', sans-serif;
+		font: italic 400 13px/15px 'Open Sans', sans-serif;
 	}
 	.badge-orange {
 		background-color: $orange-100;
@@ -815,9 +837,9 @@ html,body {
 	.curated-card {
 		position: relative;
 		border: 2px solid $green-300;
-		border-left: 4px solid $green;
+		border-left: 6px solid $green-600;
     	border-radius: 9px 15px 0px 9px;
-		padding: 0.3rem;
+		padding: 0.3rem 0.3rem 0.3rem 0.35rem;
 		background: #fff;
 		display: flex;
     	flex-direction: column;
@@ -921,4 +943,5 @@ html,body {
 		}
 	}
 }
+
 
