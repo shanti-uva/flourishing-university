@@ -21,7 +21,7 @@ get_header();
 
 				<div class="container-xxl content py-1">
 					<div class="row">
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>Contemplative Practices and Exercises</h3>
 								<div class='item-content'>
@@ -30,7 +30,7 @@ get_header();
 								</div>
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>Community for Contemplation and Flourishing</h3>
 								<div class='item-content'>
@@ -39,7 +39,7 @@ get_header();
 								</div>
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>The Encyclopedia of Contemplation</h3>
 								<div class='item-content'>
@@ -48,7 +48,7 @@ get_header();
 								</div>
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>Library for Flourishing</h3>
 								<div class='item-content'>
@@ -57,7 +57,7 @@ get_header();
 								</div>
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>Student Flourishing in Higher Education</h3>
 								<div class='item-content'>
@@ -66,7 +66,7 @@ get_header();
 								</div>
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='hero-item my-3'>
 								<h3 class='hero-title'>Flourishing Kids in K-12 Schools</h3>
 								<div class='item-content'>
@@ -92,7 +92,7 @@ get_header();
 				</div>
 				<div class='region-blades'>
 					<div class='row equal'>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'sound-and-silence@2x.jpg'; ?>' alt='Sound and Silence Practice'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -108,7 +108,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'contemplative-inquiry@2x.jpg'; ?>' alt='Contemplative Inquiry: Looking as Knowing'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -124,7 +124,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'open-awareness@2x.jpg'; ?>' alt='Open Awareness Practice'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -151,7 +151,7 @@ get_header();
 				</div>
 				<div class='region-blades'>
 					<div class='row equal'>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'monday-mindfulness@2x.jpg'; ?>' alt='Monday Mindfulness Morning'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -177,7 +177,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'thoughts-on-human@2x.jpg'; ?>' alt='Thoughts on Human Flourishing and Education'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -199,7 +199,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'discussing-ashtanga@2x.jpg'; ?>' alt='Discussing Ashtanga Yoga with John Bultman'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -236,7 +236,7 @@ get_header();
 				</div>
 				<div class='region-blades'>
 					<div class='row equal'>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'differentiation-of-cyclic@2x.jpg'; ?>' alt='The Differentiation of Cyclic Existence and Transcendence (Rushan)'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -252,7 +252,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'sound-of-elements@2x.jpg'; ?>' alt='The Sound of the Elements Yoga'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -268,7 +268,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'direct-transcendence@2x.jpg'; ?>' alt='Direct Transcendence (Thogel)'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -295,7 +295,7 @@ get_header();
 				</div>
 				<div class='region-blades'>
 					<div class='row equal'>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'curated-guides@2x.jpg'; ?>' alt='Curated Guides'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -311,7 +311,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'audio-video@2x.jpg'; ?>' alt='Audio-video'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -327,7 +327,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'sources@2x.jpg'; ?>' alt='Sources'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -354,7 +354,7 @@ get_header();
 				</div>
 				<div class='region-blades'>
 					<div class='row equal'>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'resources-for-students@2x.jpg'; ?>' alt='Resources for Students'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -370,7 +370,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'resources-for-instructors@2x.jpg'; ?>' alt='Resources for Instructors'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -386,7 +386,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'resources-for-institutions@2x.jpg'; ?>' alt='Resources for Institutions'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -413,7 +413,7 @@ get_header();
 				</div>
 				<div class='region-blades'>
 					<div class='row equal'>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'social-emotional-learning@2x.jpg'; ?>' alt='Social and Emotional Learning'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -429,7 +429,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'mindfulness@2x.jpg'; ?>' alt='Mindfulness'>
 								<div class='blade-subsection mx-4 my-3'>
@@ -445,7 +445,7 @@ get_header();
 								</div>							
 							</div>
 						</div>
-						<div class='col-sm-12 col-md-6 col-xl-4'>
+						<div class='col-sm-12 col-lg-4'>
 							<div class='front-blade mb-4 pb-2'>
 								<img src='<?php echo get_stylesheet_directory_uri() . '/img/' . 'teacher-well-being@2x.jpg'; ?>' alt='Teacher Well-being in the Classroom'>
 								<div class='blade-subsection mx-4 my-3'>

@@ -373,12 +373,14 @@ html,body {
 	}
 }
 
-.region-blades > div > div:first-child .front-blade{
-	border-top-left-radius:15px !important;
-}
-.region-blades > div > div:last-child .front-blade{
-	border-top-right-radius:15px !important;
-}
+		/*
+		.region-blades > div > div:first-child .front-blade{
+			border-top-left-radius:15px !important;
+		}
+		.region-blades > div > div:last-child .front-blade{
+			border-top-right-radius:15px !important;
+		}
+		*/
 
 .badge-blue {
 	background-color: $blue-100;
@@ -644,7 +646,7 @@ html,body {
 		padding: 1rem;
 		& > .featured-body__item + .featured-body__item {
 			padding-top: 1rem;
-    	border-top: 1px solid #E6E6E6;
+    		border-top: 1px solid #E6E6E6;
 		}
 		.featured-body__item {
 			display: flex;
@@ -699,6 +701,7 @@ html,body {
 }
 
 
+
 // Community template
 .two-three-rows-wrapper {
 	background: $grey-300;
@@ -742,14 +745,14 @@ html,body {
 		}
 	}
 	.section-body {
-		background: $green;
+		background: $green-100;
 		border-radius: 4px 4px 0 0;
 		padding: 1px;
 		&.green {
-			background: $green;
+			background: $green-100;
 		}
 		&.orange {
-			background: $orange-100;
+			background: $orange-600;
 		}
 		.section-body__title {
 			color: #fff;
@@ -758,22 +761,33 @@ html,body {
 			border-bottom: 1px solid #fff;
 			margin-bottom: 2px;
 			text-indent: .5rem;
+			&.green {
+				background-color: $green;
+			}
+			&.orange {
+				background-color: $orange-100;
+			}
 		}
 		.section-body__content {
 			background: #fff;
 			border-bottom: 3px solid;
 			padding: 0 1.5rem;
 			&.green {
-				border-bottom-color: $green;
+				border-bottom-color: $green-100;
 			}
 			&.orange {
-				border-bottom-color: $orange-100;
+				border-bottom-color: $orange-600;
 			}
 		}
-		.white-line {
-			height: 1px;
-    		display: block;
-    		background: #fff;
+		@include media-breakpoint-down(md){
+			.section-body__content>div>div {
+				margin-bottom: 1rem;
+			    border-bottom: 3px solid $green-100;
+			    padding-bottom: 1.5rem;
+			}
+			.section-body__content>div>div:last-child {
+				border:none;
+			}
 		}
 	}
 	.row-card {

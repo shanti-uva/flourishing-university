@@ -16,7 +16,7 @@ get_header();
 <div class='two-three-rows-wrapper'>
 	<div class='container-xxl'>
 		<div class='row'>
-			<div class='col-sm-12 col-xl-9 content pb-5'>
+			<div class='col-sm-12 col-xxl-9 content pb-5'>
 				<div class='row'>
 					<div class='col-sm-12'>
 						<div class='title-bar my-2 mb-3'>
@@ -56,7 +56,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body green'>
-							<div class='section-body__title p-2'>√ – Offering contemplative instruction and community online.</div>
+							<div class='section-body__title green p-2'>√ – Offering contemplative instruction and community online.</div>
 							<div class='section-body__content green'>
 								<div class='row equal'>
 									<div class='col-sm-12 col-lg-4'>
@@ -156,7 +156,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body orange'>
-							<div class='section-body__title p-2'>
+							<div class='section-body__title orange p-2'>
 								√ – Opportunities to interact with leading scholars, teachers, and practitioners of contemplation, and/or flourishing and education.
 							</div>
 							<div class='section-body__content orange'>
@@ -257,7 +257,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body green'>
-							<div class='section-body__title p-2'>√ – Periodic reflections on specific subjects by various scholars, teachers, and practitioners.</div>
+							<div class='section-body__title green p-2'>√ – Periodic reflections on specific subjects by various scholars, teachers, and practitioners.</div>
 							<div class='section-body__content green'>
 								<div class='row equal'>
 									<div class='col-sm-12 col-lg-6'>
@@ -322,7 +322,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body orange'>
-							<div class='section-body__title p-2'>
+							<div class='section-body__title orange p-2'>
 								Building communities small and large to facilitate transformative innovations in knowledge pertinent to student flourishing and contemplation.
 							</div>
 							<div class='section-body__content orange'>
@@ -380,7 +380,7 @@ get_header();
 					</div><!-- .col-sm-12 -->
 				</section><!-- section.row -->
 			</div>
-			<div class='col-sm-12 col-md-3 right-sidebar'>Search Bar</div>
+			<div class='col-sm-12 col-xxl-3 right-sidebar'>Search Bar</div>
 		</div>
 	</div>
 </div><!-- two-three-column-wrapper -->
