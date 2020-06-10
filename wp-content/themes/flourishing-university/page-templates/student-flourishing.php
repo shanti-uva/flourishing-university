@@ -56,7 +56,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body green'>
-							<div class='section-body__title p-2'>
+							<div class='section-body__title green p-2'>
 								√ - Fashioning the grounds for excellence, resiliency, and care for students flourishing in all quarters of life.
 							</div>
 							<div class='section-body__content green'>
@@ -128,7 +128,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body orange'>
-							<div class='section-body__title p-2'>
+							<div class='section-body__title orange p-2'>
 								√ - Supporting teachers own self-care as well as exploration of pedagogies of flourishing
 							</div>
 							<div class='section-body__content orange'>
@@ -200,7 +200,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body green'>
-							<div class='section-body__title p-2'>
+							<div class='section-body__title green p-2'>
 								√ - Offering support and inspiration for systemic transformation of colleges and universities to better support student flourishing.
 							</div>
 							<div class='section-body__content green'>

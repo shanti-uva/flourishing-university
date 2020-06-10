@@ -56,7 +56,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body green'>
-							<div class='section-body__title p-2'>
+							<div class='section-body__title green p-2'>
 								√ - Fostering and researching mindfulness among students to support flourishing children.
 							</div>
 							<div class='section-body__content green'>
@@ -128,7 +128,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body orange'>
-							<div class='section-body__title p-2'>
+							<div class='section-body__title orange p-2'>
 								√ - Cultivating students’ social and emotional well-being in PreK-12 classrooms.
 							</div>
 							<div class='section-body__content orange'>
@@ -200,7 +200,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body green'>
-							<div class='section-body__title p-2'>
+							<div class='section-body__title  green p-2'>
 								√ - Promoting students’ physical health and well-being to support flourishing children.
 							</div>
 							<div class='section-body__content green'>
@@ -272,7 +272,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body orange'>
-							<div class='section-body__title p-2'>
+							<div class='section-body__title orange p-2'>
 								√ - Supporting teachers’ integrated well-being in PreK-12 schools.
 							</div>
 							<div class='section-body__content orange'>
@@ -344,7 +344,7 @@ get_header();
 							</div>
 						</div>
 						<div class='section-body green'>
-							<div class='section-body__title p-2'>
+							<div class='section-body__title green p-2'>
 								√ - Practices and exercises to cultivate flourishing children in PreK-12 educational settings.
 							</div>
 							<div class='section-body__content green'>
