@@ -79,7 +79,8 @@ html,body {
 	max-width: 220px;
 	max-height: 28px;
 	float:left;
-	margin-top: .2rem;
+	margin-top: .1rem;
+	margin-right: .5rem;
 	& > * {
 		max-height: 28px;
 	}
@@ -106,6 +107,7 @@ html,body {
 		margin-left: 0.6rem;
 		display: inline-block;
 		vertical-align: middle;
+		margin-top: .15rem;
 		&:first-child {
 			margin-left: 0.8rem;
 		}
@@ -173,15 +175,22 @@ html,body {
 		}
 	}
 	.footer-menu-container {
-	    border-top: 1px solid #94a0adcc;
     	margin-top: 1rem;
 		.nav .nav-item a {
 			color: #eee;
 			font: 500 13px/20px 'Open Sans', sans-serif;
 			letter-spacing: 0.030rem;
+			border-top: 1px solid #aaa;
+			/* -webkit-transform: translate3d(0,0,0); */
+    		-webkit-transition: width .2s ease;
+    		transition: width .2s ease;
 		}
 		.nav-item + .nav-item {
-			position: relative;
+			position: relative;border-color: white;
+		}
+		.nav .nav-item a:hover {
+			color:#fff;
+			border-color:#fff;
 		}
 	}
 	.footer-byline {

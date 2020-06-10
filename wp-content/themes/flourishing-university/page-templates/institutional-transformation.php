@@ -16,7 +16,7 @@ get_header();
 <div class='two-three-rows-wrapper'>
 	<div class='container-xxl'>
 		<div class='row'>
-			<div class='col-sm-12 col-lg-8 content pb-5'>
+			<div class='col-sm-12 col-xl-9 content pb-5'>
 				<div class='row'>
 					<div class='col-sm-12'>
 						<div class='title-bar my-2'>
@@ -397,7 +397,7 @@ get_header();
 					</div><!--.col-sm-12.col-lg-4 -->
 				</section><!-- section.row -->
 			</div><!-- Left hand side content -->
-			<div class='col-sm-12 col-lg-4 right-sidebar'>Search Bar</div>
+			<div class='col-sm-12 col-xl-3 right-sidebar'>Search Bar</div>
 		</div>
 	</div>
 </div><!-- two-three-column-wrapper -->
