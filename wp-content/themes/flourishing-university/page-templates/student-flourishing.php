@@ -61,7 +61,7 @@ get_header();
 							</div>
 							<div class='section-body__content green'>
 								<div class='row equal'>
-									<div class='col-sm-12 col-lg-4'>
+									<div class='col-sm-12 col-md-4'>
 										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Contemplative Practices</span>
@@ -77,7 +77,7 @@ get_header();
 											</div>
 										</div>
 									</div>
-									<div class='col-sm-12 col-lg-4'>
+									<div class='col-sm-12 col-md-4'>
 										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Exercises for Flourishing</span>
@@ -93,7 +93,7 @@ get_header();
 											</div>
 										</div>
 									</div>
-									<div class='col-sm-12 col-lg-4'>
+									<div class='col-sm-12 col-md-4'>
 										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Taking Care</span>
@@ -133,7 +133,7 @@ get_header();
 							</div>
 							<div class='section-body__content orange'>
 								<div class='row equal'>
-									<div class='col-sm-12 col-lg-4'>
+									<div class='col-sm-12 col-md-4'>
 										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Classrooms for Flourishing</span>
@@ -149,7 +149,7 @@ get_header();
 											</div>
 										</div>
 									</div>
-									<div class='col-sm-12 col-lg-4'>
+									<div class='col-sm-12 col-md-4'>
 										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Advising and Mentoring</span>
@@ -165,7 +165,7 @@ get_header();
 											</div>
 										</div>
 									</div>
-									<div class='col-sm-12 col-lg-4'>
+									<div class='col-sm-12 col-md-4'>
 										<div class='row-card px-0 py-3'>
 											<div class='row-card__title orange pb-1'>
 												<span class='mr-2'>Taking Care</span>
@@ -205,7 +205,7 @@ get_header();
 							</div>
 							<div class='section-body__content green'>
 								<div class='row equal'>
-									<div class='col-sm-12 col-lg-4'>
+									<div class='col-sm-12 col-md-4'>
 										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Flourishing as an Institutional Priority</span>
@@ -221,7 +221,7 @@ get_header();
 											</div>
 										</div>
 									</div>
-									<div class='col-sm-12 col-lg-4'>
+									<div class='col-sm-12 col-md-4'>
 										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Direct Student Engagement</span>
@@ -237,7 +237,7 @@ get_header();
 											</div>
 										</div>
 									</div>
-									<div class='col-sm-12 col-lg-4'>
+									<div class='col-sm-12 col-md-4'>
 										<div class='row-card px-0 py-3'>
 											<div class='row-card__title green pb-1'>
 												<span class='mr-2'>Transformative Technologies</span>

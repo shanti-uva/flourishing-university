@@ -323,7 +323,7 @@ get_header();
 						</div>
 						<div class='section-body orange'>
 							<div class='section-body__title orange p-2'>
-								Building communities small and large to facilitate transformative innovations in knowledge pertinent to student flourishing and contemplation.
+								√ - Building communities small and large to facilitate transformative innovations in knowledge pertinent to student flourishing and contemplation.
 							</div>
 							<div class='section-body__content orange'>
 								<div class='row'>
